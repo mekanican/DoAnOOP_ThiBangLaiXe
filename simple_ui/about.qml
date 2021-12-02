@@ -15,7 +15,7 @@ Item {
         Text {
             anchors.fill: r
             id: name
-            text: qsTr("Phan mem ho tro thi lai xe den tu nhom 2\nGom 3 thanh vien:\n- abc\n- xyz\n- mno")
+            text: qsTr("Phần mềm hỗ trợ thi lái xe của nhóm 2\nGồm 3 thành viên:\n- A\n- B\n- C")
             font.family: "Open sans"
             font.pointSize: 17
         }

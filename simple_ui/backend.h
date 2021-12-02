@@ -28,7 +28,7 @@ public:
 
 
 public slots:
-    void buttonClick();
+    void buttonClick(bool isRegister);
 
 signals:
     void userNameChanged();

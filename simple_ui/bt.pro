@@ -2,8 +2,8 @@ QT += quick quickcontrols2
 
 CONFIG += c++11
 CONFIG += qmltypes
-QML_IMPORT_NAME = io.qt.examples.backend
-QML_IMPORT_MAJOR_VERSION = 1
+#QML_IMPORT_NAME = io.qt.examples.backend
+#QML_IMPORT_MAJOR_VERSION = 1
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -18,6 +18,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         backend.cpp \
+        backendquestion.cpp \
         main.cpp
 
 RESOURCES += qml.qrc
@@ -34,6 +35,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    backend.h
+    backend.h \
+    backendquestion.h
+
+DISTFILES +=
 
 

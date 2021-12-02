@@ -52,11 +52,19 @@ void BackEnd::setRealName(const QString &realName)
     emit realNameChanged();
 }
 
-void BackEnd::buttonClick() {
-    if (!m_realName.isEmpty()) {
+void BackEnd::buttonClick(bool isRegister) {
+//    if (!m_realName.isEmpty()) {
+//        m_isLogin = true;
+//        return;
+//    }
+
+    if (isRegister) {
+        // Todo...
         m_isLogin = true;
+        m_realName = m_userName;
         return;
     }
+
     qDebug() << m_userName << m_passWord;
     if (m_userName == "test" && m_passWord == "test")
     {

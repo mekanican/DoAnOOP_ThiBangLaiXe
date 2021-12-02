@@ -7,14 +7,14 @@ import io.qt.examples.backend 1.0
 
 ApplicationWindow {
 
-    Material.theme:  Material.Dark
+    Material.theme:  Material.Light
     Material.accent: Material.Purple
 
     id: root
     width: 800
     height: 600
     visible: true
-    title: qsTr("Your name ?")
+    title: qsTr("Application")
 
     header: ToolBar {
         contentHeight: toolButton.implicitHeight
@@ -59,10 +59,10 @@ ApplicationWindow {
                 id: b1
                 height: 70
                 width: 100
-                text: "Dang nhap"
+                text: "Đăng nhập"
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
-                    title_.text = qsTr("Dang nhap")
+                    title_.text = qsTr("Đăng nhập")
                     stackView.push("login.qml")
                     layer1.visible = false
                 }
@@ -73,10 +73,10 @@ ApplicationWindow {
             Button {
                 height: 70
                 width: 100
-                text: "Gioi Thieu"
+                text: "Giới thiệu"
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
-                    title_.text = qsTr("Gioi thieu")
+                    title_.text = qsTr("Giới thiệu")
                     stackView.push("about.qml")
                     layer1.visible = false
                 }
@@ -86,7 +86,7 @@ ApplicationWindow {
             Button {
                 height: 70
                 width: 100
-                text: "Thoat"
+                text: "Thoát"
                 bottomPadding: 0
                 topPadding: 0
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -98,11 +98,11 @@ ApplicationWindow {
         }
     }
 
-    Text {
-        id: realName
-        text: ""
-        enabled: false
-    }
+//    Text {
+//        id: realName
+//        text: ""
+//        enabled: false
+//    }
 
 
 }

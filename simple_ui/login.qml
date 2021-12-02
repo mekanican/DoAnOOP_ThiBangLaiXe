@@ -9,15 +9,15 @@ Item {
     }
     Column {
         anchors.centerIn: parent
-        TextField {
-            width: 200
-            id: rname
-            text: backend.realName
-            placeholderText: qsTr("Realname")
-            KeyNavigation.tab: login
-            onTextChanged: backend.realName = text
-            visible: false
-        }
+//        TextField {
+//            width: 200
+//            id: rname
+//            text: backend.realName
+//            placeholderText: qsTr("Realname")
+//            KeyNavigation.tab: login
+//            onTextChanged: backend.realName = text
+//            visible: false
+//        }
         TextField {
             width: 200
             id: login
@@ -37,26 +37,27 @@ Item {
             KeyNavigation.tab: go
         }
 
-        RadioButton {
+        CheckBox {
             anchors.horizontalCenter: parent.horizontalCenter
             id: res
-            text: "Dang ky"
-            onClicked: {
-                rname.visible = true;
-            }
+            text: "Đăng Ký"
+//            onClicked: {
+//                rname.visible = true;
+//            }
         }
 
         Button {
             anchors.horizontalCenter: parent.horizontalCenter
             id: go
-            text: "Dang nhap"
+            text: "Đăng Nhập"
             onClicked: {
-                backend.buttonClick()
+                backend.buttonClick(res.checkState === Qt.Checked)
                 if (backend.isLogin === true) {
+                    title_.text = "Chào mừng " + backend.realName
                     stackView.pop()
-                    stackView.push("selection.qml")
-                    realName.text = backend.realName
-                    realName.enabled = true
+                    stackView.push("playground.qml")
+//                    realName.text = backend.realName
+//                    realName.enabled = true
                 }
             }
         }

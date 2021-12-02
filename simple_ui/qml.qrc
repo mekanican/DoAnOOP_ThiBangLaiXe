@@ -4,6 +4,7 @@
         <file>about.qml</file>
         <file>login.qml</file>
         <file>empty.qml</file>
-        <file>selection.qml</file>
+        <file>playground.qml</file>
+        <file>images.jpeg</file>
     </qresource>
 </RCC>
