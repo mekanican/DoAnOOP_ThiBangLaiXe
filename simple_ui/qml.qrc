@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>about.qml</file>
+        <file>login.qml</file>
+        <file>empty.qml</file>
+        <file>selection.qml</file>
+    </qresource>
+</RCC>
