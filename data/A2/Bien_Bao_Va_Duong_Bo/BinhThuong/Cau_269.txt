@@ -1,0 +1,9 @@
+Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đi ngược chiều, xe đi ở phía đường bị hẹp phải nhường đường cho xe đi ngược chiều?
+4
+Biển 1.
+Biển 1 và 3.
+Biển 2 và 3.
+Cả ba biển.
+2
+image/q389.png
+Biển 1: W.236 “Hết đường đôi”; Biển 2: Biển 2: W203b “Đường bị hẹp về phía trái”; Biển 3:  Biển 3: W203c “Đường bị hẹp về phía phải”.<br/>Câu này hỏi về việc đường bị thu hẹp nên câu trả lời đúng là Biển 2 và Biển 3.

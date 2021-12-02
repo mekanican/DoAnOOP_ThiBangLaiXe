@@ -1,0 +1,8 @@
+Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?
+3
+Xe con (A), xe cứu thương, xe con (B).
+Xe cứu thương, xe con (B), xe con (A).
+Xe con (B), xe con (A), xe cứu thương.
+0
+image/q493.png
+Thứ tự ưu tiên: Xe vào ngã ba, ngã tư trước - Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái..<br/>1. Xe con (A): Đã vào ngã tư trước;<br/>2. Xe cứu thương: Xe ưu tiên;<br/>3. Xe con (B);

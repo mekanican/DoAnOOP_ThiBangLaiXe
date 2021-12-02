@@ -1,0 +1,8 @@
+Biển 1 có ý nghĩa gì?
+3
+Biển chỉ dẫn hết cấm đỗ xe theo giờ trong khu vực.
+Biển chỉ dẫn hết hiệu lực khu vực đỗ xe trên các tuyến đường đối ngoại.
+Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại.
+0
+image/q449.png
+Biển 1: R.E,10b “Hết cấm đỗ xe theo giờ trong khu vực” ; Biển 2: R.E,10a “Hết cấm đỗ xe trong khu vực”; Biển 3: R.E,10c: “Hết khu vực đỗ xe”.

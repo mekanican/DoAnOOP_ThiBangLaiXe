@@ -1,0 +1,8 @@
+Biển nào dưới đây các phương tiện không được phép đi vào?
+3
+Biển 1.
+Biển 2.
+Biển 1 và 2.
+2
+image/q330.png
+Biển 1: P.101 “Đường cấm”;<br/>Biển 2: P.102 “Cấm đi ngược chiều” cấm đi vào theo chiều đặt biển;<br/>Biển 3: P.301a “Cấm đỗ xe”.<br/>Nên biển 1 và biển 2 là cấm các phương tiện không được phép đi vào.

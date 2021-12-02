@@ -1,0 +1,7 @@
+Xe nào phải nhường đường là đúng quy tắc giao thông?
+2
+Xe con (A).
+Xe con (B).
+1
+image/q546.png
+Xe con (A) đang đi trước và xi nhan trái nên được đi trước, xe con (B) xi nhan phải và đi sau nên phải nhường.

@@ -1,0 +1,7 @@
+Trong các biển báo dưới đây biển nào chỉ dẫn bắt đầu đường cao tốc.
+3
+Biển 1.
+Biển 2.
+Cả biển 1 và biển 2.
+1
+image/q369.png

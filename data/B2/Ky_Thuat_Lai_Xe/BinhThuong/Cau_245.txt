@@ -1,0 +1,7 @@
+Khi động cơ ô tô đã khởi động, muốn điều chỉnh ghế của người lái, người lái xe phải điều chỉnh cần số ở vị trí nào?
+3
+Vị trí N hoặc vị trí P hoặc số 0.
+Vị trí D hoặc số 1.
+Vị trí R.
+0
+

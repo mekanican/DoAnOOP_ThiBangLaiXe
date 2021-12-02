@@ -1,0 +1,9 @@
+Trong hình dưới, những xe nào vi phạm quy tắc giao thông?
+4
+Xe con (B), mô tô (C).
+Xe con (A), mô tô (C).
+Xe con (E), mô tô (D).
+Tất cả các loại xe trên.
+2
+image/q548.png
+Nhìn vào bảng chỉ dẫn loại phương tiện theo làn đường: Xe con (E) đi trên làn dành riêng cho mô tô nên vi phạm: Xe mô tô (D) chạy trên làn dành riêng xe ô tô nên cũng vi phạm.

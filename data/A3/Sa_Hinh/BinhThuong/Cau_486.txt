@@ -1,0 +1,8 @@
+Bạn xử lý như thế nào trong trường hợp này?
+3
+Tăng tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.
+Giảm tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.
+Giảm tốc độ, để người đi bộ sang đường trước, sau đó cho xe đi qua vạch người đi bộ sang đường.
+2
+image/q587.png
+Trước mặt bạn có biển I.423a “Đường người đi bộ sang ngang” nên bạn phải giảm tốc độ và nhường đường cho người đi bộ sang đường.

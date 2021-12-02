@@ -1,0 +1,9 @@
+Bạn đang lái xe phía trước có một xe cảnh sát giao thông không phát tín hiệu ưu tiên bạn có được phép vượt hay không?
+4
+Không được vượt.
+Được vượt khi đang đi trên cầu.
+Được phép vượt khi đi qua nơi giao nhau có ít phương tiện cùng tham gia giao thông.
+Được vượt khi đảm bảo an toàn.
+3
+
+Được vượt khi xe không phát tín hiệu ưu tiên.

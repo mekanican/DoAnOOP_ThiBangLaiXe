@@ -1,0 +1,9 @@
+Biển 3 có ý nghĩa gì?
+4
+Biển chỉ dẫn khu vực cấm đỗ xe trên các tuyến đường đối ngoại
+Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại.
+Biển hạn chế tốc độ tối đa trong khu vực.
+Biển chỉ dẫn hết hiệu lực khu vực cấm đỗ xe theo giờ trên các tuyến đường đối ngoại.
+2
+image/q450.png
+Biển 1: R.E,9a “Cấm đỗ xe trong khu vực”; Biển 2: Biển R.E,10c “Hết khu vực đỗ xe”; Biển 3: Biển R.E,9d “Hạn chế tốc độ tối đa trong khu vực”.

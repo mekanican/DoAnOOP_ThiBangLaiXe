@@ -1,0 +1,8 @@
+Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường), xe không được lấn làn, không được đè lên vạch?
+4
+Vạch 1.
+Vạch 2.
+Vạch 3.
+Cả 3 vạch.
+1
+image/q479.png

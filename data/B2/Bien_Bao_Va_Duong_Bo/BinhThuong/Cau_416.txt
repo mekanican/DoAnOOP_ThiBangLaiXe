@@ -1,0 +1,9 @@
+Biển nào báo hiệu gần đến đoạn đường thường có trẻ em đi ngang qua?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Cả 3 biển.
+1
+image/q417.png
+Biển 1: W.224 “Đường người đi bộ cắt ngang”; Biển 2: W.225 “Trẻ em”; Biển 3: W.226 “Đường người đi xe đạp cắt ngang”

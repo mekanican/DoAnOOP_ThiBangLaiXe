@@ -1,0 +1,9 @@
+Biển nào báo hiệu “Nơi đường sắt giao vuông góc với đường bộ”?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 1 và 2.
+3
+image/q382.png
+Biển 1 và Biển 2 là 242a và 242b “Nơi đường sắt giao nhau vuông góc với đường bộ” bổ sung cho biển 211 “Giao nhau với đường sắt không có rào chắn”.<br/> Biển 3 là 243a “Nơi giao nhau không vuông góc với đường bộ”.

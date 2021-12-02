@@ -1,0 +1,9 @@
+Biển nào chỉ dẫn cho người đi bộ sử dụng hầm chui qua đường?
+4
+Biển 1.
+Biển 2.
+Cả hai biển.
+Không biển nào.
+1
+image/q455.png
+Biển 1: I424b “Cầu vượt qua đường cho người đi bộ”; Biển 2: I424d “Hầm chui qua đường cho người đi bộ” nên đáp án đúng là biển 2.

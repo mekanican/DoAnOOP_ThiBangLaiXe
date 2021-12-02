@@ -1,0 +1,9 @@
+Biển nào cấm cấm ô tô quay đầu?
+4
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+Không biển nào.
+0
+image/q323.png
+Biển 1: P.124b “Cấm ô tô quay đầu xe”; Biển 2: P.124e “Cấm ôtô rẽ trái và quay xe”; Biển 3: P.103b “Cấm ô tô rẽ phải” - Biển này không cấm quay đầu.

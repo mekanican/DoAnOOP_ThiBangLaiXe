@@ -1,0 +1,7 @@
+Người có giấy phép lái xe mô tô hạng A1 không được phép điều khiển loại xe nào dưới đây?
+3
+Xe mô tô có dung tích xi-lanh 125 cm3.
+Xe mô tô có dung tích xi-lanh từ 175 cm3 trở lên.
+Xe mô tô có dung tích xi-lanh 100 cm3.
+1
+

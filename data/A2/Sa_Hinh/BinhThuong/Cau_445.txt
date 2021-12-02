@@ -1,0 +1,8 @@
+Xe nào dừng đúng theo quy tắc giao thông?
+3
+Xe con.
+Xe mô tô.
+Cả 2 xe đều sai.
+0
+image/q592.png
+Biển số W.211a “Giao nhau với đường sắt không có rào chắn” thì các phương tiện đứng cách xa đường sắt tối thiểu 5m nên xe con đúng.

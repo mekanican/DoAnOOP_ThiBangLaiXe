@@ -1,0 +1,8 @@
+Hai biển này có ý nghĩa gì?
+3
+Để chỉ nơi đường sắt giao vuông góc với đường bộ không có rào chắn.
+Để báo trước sắp đến vị trí giao cắt đường bộ với đường sắt cùng mức, không vuông góc và không có người gác, không có rào chắn.
+Nơi đường sắt giao nhau với đường bộ.
+0
+image/q381.png
+Hai biển này là 242a và 242b “Nơi đường sắt giao nhau vuông góc với đường bộ” bổ sung cho biển 211 “Giao nhau với đường sắt không có rào chắn”. Do đó câu trả lời 1 đúng.

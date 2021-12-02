@@ -1,0 +1,8 @@
+Biển nào sau đây báo trước gần tới đoạn đường đang tiến hành thi công?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Không biển nào.
+0
+image/q412.png

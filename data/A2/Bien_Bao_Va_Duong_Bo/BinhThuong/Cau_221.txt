@@ -1,0 +1,7 @@
+Biển nào hạn chế chiều cao của xe và hàng?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+0
+image/q341.png

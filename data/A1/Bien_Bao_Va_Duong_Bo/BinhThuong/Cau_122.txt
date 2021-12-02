@@ -1,0 +1,9 @@
+Gặp biển nào người lái xe phải nhường đường cho người đi bộ?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 1 và 3.
+0
+image/q371.png
+Biển 1: W.224 “Đường người đi bộ cắt ngang”; Biển 2: P.112 “Cấm người đi bộ”; Biển 3: R.305 “Đường dành cho người đi bộ”.<br/>Biển 1 báo ưu tiên cho người đi bộ nên phải nhường đường.

@@ -1,0 +1,8 @@
+Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường)?
+4
+Vạch 1.
+Vạch 2.
+Vạch 3.
+Vạch 1 và 3.
+3
+image/q480.png

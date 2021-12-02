@@ -1,0 +1,9 @@
+Biển nào báo hiệu “Giao nhau có tín hiệu đèn”?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Cả ba biển.
+2
+image/q376.png
+Biển 1: W.210 “Giao nhau với đường sắt có rào chắn”; Biển 2: W.208 “Giao nhau với đường ưu tiên”; Biển 3: W.209 “Giao nhau có tín hiệu đèn”.

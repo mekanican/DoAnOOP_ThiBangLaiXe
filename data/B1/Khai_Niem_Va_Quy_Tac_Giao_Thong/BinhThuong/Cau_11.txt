@@ -1,0 +1,7 @@
+“Người điều khiển phương tiện tham gia giao thông đường bộ” gồm những đối tượng nào dưới đây?
+3
+Người điều khiển xe cơ giới, người điều khiển xe thô sơ.
+Người điều khiển xe máy chuyên dùng tham gia giao thông đường bộ.
+Cả ý 1 và ý 2
+2
+

@@ -1,0 +1,8 @@
+Biển nào (đặt trước ngã ba, ngã tư) cho phép xe được rẽ sang hướng khác?
+3
+Biển 1.
+Biển 2.
+Không biển nào
+2
+image/q436.png
+Biển 1: R.301a “Hướng đi phải theo” chỉ được đi thẳng đặt trước ngã ba, ngã tư;<br/>Biển 2: R.301h “Hướng đi phải theo” chỉ được rẽ trái hoặc rẽ phải đặt sau ngã ba, ngã tư;<br/>Nên đáp án đúng là không có biển nào.

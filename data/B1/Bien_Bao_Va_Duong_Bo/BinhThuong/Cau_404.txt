@@ -1,0 +1,8 @@
+Biển nào báo hiệu các phương tiện phải tuân thủ tốc độ tối đa cho phép trên từng làn đường?
+3
+Biển 1.
+Biển 2.
+Cả hai biển.
+2
+image/q431.png
+Biển 1 là 127b Tốc độ tối đa trên từng làn đường; Biển 2 là 127c tốc độ tối đa cho phép theo phương tiện trên từng làn đường. Nên cả 2 biển đều là đáp án đúng (Quy định tốc độ phương tiện theo làn đường).

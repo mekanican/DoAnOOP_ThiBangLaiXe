@@ -1,0 +1,9 @@
+Theo hướng mũi tên, xe nào được phép đi?
+4
+Mô tô, xe con.
+Xe con, xe tải.
+Mô tô, xe tải.
+Cả ba xe.
+2
+image/q529.png
+Giang ngang tay: Trái phải đi; Trước sau dừng.<br/>Xe mô tô và xe tải được phép đi là đáp án đúng.

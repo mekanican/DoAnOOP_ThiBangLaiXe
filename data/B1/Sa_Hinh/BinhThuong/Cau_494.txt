@@ -1,0 +1,9 @@
+Theo hướng mũi tên, những hướng nào xe tải được phép đi?
+4
+Chỉ hướng 1.
+Hướng 1, 3 và 4.
+Hướng 1, 2 và 3
+Cả bốn hướng.
+0
+image/q521.png
+Biển số R.301d “Chỉ được rẽ phải” áp dụng với xe tải (biển phụ) nên hướng 3, 4 rẽ trái bị cấm.<br/>Hướng 2 có biển cấm xe tải đi vào.<br/>Nên xe tải chỉ có thể chạy theo hướng 1 là đáp án đúng.

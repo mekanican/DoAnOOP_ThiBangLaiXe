@@ -1,0 +1,9 @@
+Phía trước có một xe đang lùi vào nơi đỗ, xe con phía trước đang chuyển sang làn đường bên trái, bạn xử lý như thế nào trong trường hợp này?
+4
+Nếu phía sau không có xe xin vượt, chuyển sang làn đường bên trái.
+Nếu phía sau có xe xin vượt, thì giảm tốc độ, ở lại làn đường, dừng lại khi cần thiết.
+Tăng tốc độ trên làn đường của mình và vượt xe con.
+Ý 1 và ý 2.
+3
+image/q578.png
+Cần quan sát kỹ xe phía sau trong tình huống này để có hành động hợp lý. Nếu không có xe xin vượt chuyển làn trái đi tiếp. Nếu có xe xin vượt thì giảm tốc độ, ở lại làn đường hoặc dừng lại nếu cần thiết.

@@ -1,0 +1,7 @@
+Xe nào phải nhường đường trong trường hợp này?
+2
+Xe con.
+Xe tải.
+0
+image/q491.png
+Giao nhau cùng cấp có vòng xuyến: Chưa vào vòng xuyến thì ưu tiên xe bên phải; đã vào vòng xuyến ưu tiên xe từ bên trái tới.<br/>Xe con nhường vì thấy xe tải từ bên trái tới đã nằm trong vòng xuyến.

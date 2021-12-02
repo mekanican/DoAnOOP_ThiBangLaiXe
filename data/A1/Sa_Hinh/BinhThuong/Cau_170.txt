@@ -1,0 +1,8 @@
+Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?
+3
+Xe khách, xe tải, mô tô.
+Xe tải, xe con, mô tô.
+Xe khách, xe con, mô tô.
+0
+image/q503.png
+1. Xe khách: Sai làn, Đi thẳng đèn đang đỏ;<br/>2. Xe tải: Sai làn: Đi trên làn đi thẳng trong khi thực hiện rẽ trái.<br/>3. Xe mô tô: Sai làn: Đi trên làn rẽ trái trong khi thực hiện rẽ phải,<br/>Nên đáp án đúng là xe khách, xe tải và xe mô tô đều vi phạm quy tắc giao thông.

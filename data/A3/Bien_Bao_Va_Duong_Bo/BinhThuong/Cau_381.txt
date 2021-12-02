@@ -1,0 +1,6 @@
+Các vạch dưới đây có tác dụng gì?
+2
+Phân chia hai chiều xe chạy ngược chiều nhau.
+Phân chia các làn xe chạy cùng chiều nhau.
+1
+image/q482.png

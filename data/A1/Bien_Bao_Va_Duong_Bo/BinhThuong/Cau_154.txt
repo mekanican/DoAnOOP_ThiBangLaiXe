@@ -1,0 +1,9 @@
+Biển nào chỉ dẫn cho người đi bộ sử dụng cầu vượt qua đường?
+4
+Biển 1.
+Biển 2.
+Cả hai biển.
+Không biển nào.
+0
+image/q454.png
+Biển 1: I424a “Cầu vượt qua đường cho người đi bộ”; Biển 2: I424c “Hầm chui qua đường cho người đi bộ” nên đáp án đúng là biển 1.

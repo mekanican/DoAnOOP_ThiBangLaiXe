@@ -1,0 +1,9 @@
+Biển nào báo hiệu đoạn đường hay xảy ra ùn tắc giao thông?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Cả 3 biển.
+1
+image/q414.png
+Biển 1: W.240 “Đường hầm”; Biển 2: W.241 “Ùn tắc giao thông”; Biển 3: W.244 “Đoạn đường hay xảy ra tai nạn”

@@ -1,0 +1,7 @@
+Biển nào cấm xe taxi mà không cấm các phương tiện khác?
+3
+Biển 1.
+Biển 2.
+Không biển nào
+1
+image/q325.png

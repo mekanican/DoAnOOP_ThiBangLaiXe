@@ -1,0 +1,8 @@
+Trong hình dưới đây, xe nào chấp hành đúng quy tắc giao thông?
+3
+Chỉ xe khách, mô tô.
+Tất cả các loại xe trên.
+Không xe nào chấp hành đúng quy tắc giao thông.
+1
+image/q538.png
+Xe khách chờ đèn đỏ rẽ trái. Xe tải đi thẳng và rẽ phải theo tín hiệu đèn xanh. Xe con đi thẳng và rẽ phải theo tín hiệu đèn xanh. Xe mô tô chờ đèn đỏ rẽ trái. Nên tất cả xe đều chấp hành.

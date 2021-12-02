@@ -1,0 +1,7 @@
+Biển báo này có ý nghĩa gì?
+2
+Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái.
+Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên trái khi đường cong vòng bên phải.
+0
+image/q421.png
+Biển W201c “Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái”;

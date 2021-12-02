@@ -1,0 +1,8 @@
+Biển phụ đặt dưới biển cấm bóp còi có ý nghĩa gì?
+3
+Báo khoảng cách đến nơi cấm bóp còi.
+Chiều dài đoạn đường cấm bóp còi từ nơi đặt biển.
+Báo cấm dùng còi có độ vang xa 500 m.
+1
+image/q351.png
+Biển phụ là biển S.501 “Phạm vi tác dụng của biển” xác định chiều dài áp dụng biển chính từ nơi đặt biển.

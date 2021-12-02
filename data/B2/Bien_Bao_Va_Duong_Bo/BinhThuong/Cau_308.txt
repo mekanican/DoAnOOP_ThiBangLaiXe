@@ -1,0 +1,8 @@
+Biển nào dưới đây xe gắn máy được phép đi vào?
+3
+Biển 1.
+Biển 2
+Cả hai biển.
+2
+image/q309.png
+Biển 104 “Cấm mô tô” và biển 103a “Cấm ô tô” không cấm xe gắn máy (không phải mô tô). Nên cả 2 biển đều cho phép xe gắn máy đi vào.

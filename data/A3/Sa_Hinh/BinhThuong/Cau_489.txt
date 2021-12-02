@@ -1,0 +1,8 @@
+Bạn xử lý như thế nào trong trường hợp này?
+3
+Tăng tốc độ cho xe lấn sang phần đường bên trái.
+Giảm tốc độ cho xe lấn sang phần đường bên trái.
+Giảm tốc độ cho xe đi sát phần đường bên phải.
+2
+image/q590.png
+Phía trước khuất tầm nhìn, bên trái làn đường là vạch liền nên bạn cần phải giảm tốc độ, đi sát làn đường bên phải để đảm bảo đi đúng làn đường.

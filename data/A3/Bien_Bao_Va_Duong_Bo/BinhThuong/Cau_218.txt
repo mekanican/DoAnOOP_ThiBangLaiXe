@@ -1,0 +1,8 @@
+Khi gặp biển nào xe được rẽ trái?
+3
+Biển 1.
+Biển 2.
+Không biển nào.
+1
+image/q319.png
+Biển 1: P.123a “Cấm rẽ trái” không cấm quay đầu xe; Biển 2: P.124a “Cấm quay xe” không cấm rẽ trái.<br/>Nên Biển 2 là đáp án đúng.

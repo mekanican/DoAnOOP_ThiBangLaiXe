@@ -1,0 +1,7 @@
+Theo tín hiệu đèn, xe nào được phép đi?
+2
+Xe con và xe khách.
+Mô tô.
+0
+image/q499.png
+Xe con và xe khách đang ở làn đường có tín hiệu đèn xanh nên được phép đi.

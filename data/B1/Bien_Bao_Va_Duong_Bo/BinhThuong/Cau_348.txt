@@ -1,0 +1,8 @@
+Biển nào báo hiệu “Giao nhau với đường sắt có rào chắn”?
+3
+Biển 1.
+Biển 2 và 3.
+Biển 3.
+0
+image/q375.png
+Biển 1: W.210 “Giao nhau với đường sắt có rào chắn”; Biển 2: W.208 “Giao nhau với đường ưu tiên”; Biển 3: W.209 “Giao nhau có tín hiệu đèn”.

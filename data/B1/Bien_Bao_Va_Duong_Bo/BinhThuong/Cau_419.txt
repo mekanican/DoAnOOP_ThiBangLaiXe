@@ -1,0 +1,9 @@
+Khi đến chỗ giao nhau, gặp biển nào thì người lái xe không được cho xe đi thẳng, phải rẽ sang hướng khác?
+4
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+Cả ba biển.
+0
+image/q446.png
+R.301 (a, b, c,d, e, f,g, h ) “Hướng đi phải theo”;<br/>Biển 1: R.301e đặt trước ngã ba, ngã tư, chỉ được rẽ trái ở phạm vi ngã ba, ngã tư đằng sau mặt biển.<br/>Biển 2: R.301h đặt sau ngã ba, ngã tư, chỉ được phép rẽ trái, quay đầu hoặc rẽ phải ở khu vực ngã ba, ngã tư trước mặt biển.<br/>Biển 3: R.301g đặt trước ngã ba, ngã tư, chỉ được phép đi thẳng hay rẽ trái ở khu vực sau mặt biển và được phép quay đầu xe để đi theo hướng ngược lại.<br/>Biển 1 và Biển 2 là đáp án đúng.

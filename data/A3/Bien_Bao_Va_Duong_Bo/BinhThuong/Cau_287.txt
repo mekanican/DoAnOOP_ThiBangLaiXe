@@ -1,0 +1,9 @@
+Biển nào báo hiệu “Đường bị thu hẹp”?
+4
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+Cả ba biển.
+0
+image/q388.png
+Biển 1: W.203a “Đường bị hẹp cả hai bên”; Biển 2: W203b “Đường bị hẹp về phía trái”; Biển 3: W.201b “Chỗ ngoặt nguy hiểm vòng bên phải”. Nên đáp án đúng là Biển 1 và Biển 2.

@@ -1,0 +1,8 @@
+Đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?
+3
+Xe chữa cháy.
+Xe tải.
+Cả hai xe.
+1
+image/q532.png
+Biển cấm xe ngược chiều không có tác dụng với xe chữa cháy (xe ưu tiên) nên không vi phạm.<br/>Trước mặt xe tải có biển cấm rẽ trái và quay đầu nên vi phạm là đáp án đúng.

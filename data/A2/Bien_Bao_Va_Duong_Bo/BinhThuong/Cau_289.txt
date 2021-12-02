@@ -1,0 +1,8 @@
+Biển nào sau đây là biển “Kè, vực sâu bên đường phía bên phải”?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+1
+image/q409.png
+Biển 1: W.215a “Kè, vực sâu phía trước”;<br/>Biển 2: W.215b “Kè, vực sâu bên đường phía bên phải”;<br/>Biển 3: W.215c “Kè, vực sâu bên đường phía bên trái”.

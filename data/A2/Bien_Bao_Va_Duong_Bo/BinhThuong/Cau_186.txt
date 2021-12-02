@@ -1,0 +1,8 @@
+Biển nào cấm ô tô tải?
+4
+Cả ba biển.
+Biển 2 và 3.
+Biển 1 và 3.
+Biển 1 và 2.
+3
+image/q306.png

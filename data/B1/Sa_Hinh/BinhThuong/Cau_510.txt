@@ -1,0 +1,9 @@
+Những hướng nào ô tô tải được phép đi?
+4
+Cả bốn hướng.
+Hướng 1, 2 và 3.
+Hướng 1 và 4.
+Hướng 1, 3 và 4.
+3
+image/q537.png
+Trước mặt xe tải là Biển số P.123a “Cấm rẽ trái” không cấm quay đầu (hướng 3).<br/>Hướng 4 là Biển số P.109 “Cấm máy kéo” không cấm xe tải.<br/>Nên các hướng 1, 3 và 4 là câu trả lời đúng.

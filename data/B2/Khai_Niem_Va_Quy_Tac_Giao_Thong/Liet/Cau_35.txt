@@ -1,0 +1,7 @@
+Người lái xe không được vượt xe khác khi gặp trường hợp nào ghi ở dưới đây?
+3
+Trên cầu hẹp có một làn xe. Nơi đường giao nhau, đường bộ giao nhau cùng mức với đường sắt; xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ.
+Trên cầu có từ 02 làn xe trở lên; nơi đường bộ giao nhau không cùng mức với đường sắt; xe được quyền ưu tiên đang đi phía trước nhưng không phát tín hiệu ưu tiên.
+Trên đường có 2 làn đường được phân chia làn bằng vạch kẻ nét đứt.
+0
+

@@ -1,0 +1,8 @@
+Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?
+3
+Xe cứu thương, xe cứu hỏa, xe con.
+Xe cứu hỏa, xe cứu thương, xe con.
+Xe cứu thương, xe con, xe cứu hỏa.
+1
+image/q494.png
+Thứ tự xe ưu tiên: Xe cứu hoả (mức độ thương vong lớn hơn); Xe công an; Xe cứu thương.

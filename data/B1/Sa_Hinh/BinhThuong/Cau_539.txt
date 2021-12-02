@@ -1,0 +1,9 @@
+Trong hình dưới, những xe nào vi phạm quy tắc giao thông?
+4
+Xe con (A), xe con (B), xe tải (D).
+Xe tải (D), xe con (E), xe buýt (G).
+Xe tải (D), xe con (B).
+Xe con (B), xe con (C).
+2
+image/q566.png
+Xe con (B) và xe tải (D) đang đè lên vạch liền phân tách làn đường nên vi phạm quy tắc giao thông.
