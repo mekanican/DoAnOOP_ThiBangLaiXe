@@ -1,6 +1,8 @@
 #include "DatabaseClientUser.h"
 #include <fstream>
 #include <iostream>
+#include <sstream>
+#include "Tokenizer.h"
 #define USER_LOCATION "UserDatabase.txt"
 
 void DatabaseClientUser::creat(){
@@ -37,4 +39,21 @@ void DatabaseClientUser::update(string info){
     if(!out.is_open()) return;
     out << info;
     out.close();
+}
+
+vector<User> DatabaseClientUser::toVUser(string users){
+    // tui khong hieu string o day la gi, tui ngam hieu la data user nhe.
+    vector<User> res;
+    stringstream ss(users);
+    for(int i = 0; i < 10; i++){
+        string tmp;
+        ss >> tmp;
+        vector<string> info = Tokenizer::parse(tmp, ";");
+        User user(info[0], info[1]);
+        res.push_back(user);
+    }
+}
+
+string DatabaseClientUser::fromUser(User user){
+    return user.Username() + ";" + user.Password();
 }

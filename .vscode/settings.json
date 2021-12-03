@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xstring": "cpp"
     },
     "files.eol": "\r\n"
 }
