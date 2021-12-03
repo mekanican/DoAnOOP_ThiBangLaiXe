@@ -3,8 +3,7 @@
 
 class DatabaseClientUser : public DatabaseClient{
 public:
-    DatabaseClientUser(){}
-    DatabaseClientUser(string);
-    ~DatabaseClientUser(){}
-    
+    void creat();
+    void update(string);
+    vector<string> read();
 };

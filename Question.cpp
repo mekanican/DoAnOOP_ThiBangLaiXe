@@ -74,11 +74,11 @@ QuestionPack::QuestionPack(Type type, vector<Question> questions){
 // Need processed input from other class
 
 int QuestionPack::evaluateScore(){
-
+    return 0;
 }
 
 void QuestionPack::loadMockTest(){
-
+    return;
 }
 
 void QuestionPack::loadPractice(Topic topic){
