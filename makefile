@@ -1,16 +1,15 @@
 CC = g++
+TARGET = main
+OBJ = DatabaseClientUser.o io.o Question.o test.o 
+CPP = DatabaseClientUser.cpp io.cpp Question.cpp test.cpp
+DEPS = DatabaseClientUser.h DatabaseClient.h constants.h io.h Mode.h Question.h Score.h User.h
 
-all: main.o question.o io.o
-	$(CC) -o main main.o question.o io.o
-main.o: main.cpp question.h io.h
-	$(CC) -g -c main.cpp
-question.o: question.cpp question.h constants.h
-	$(CC) -g -c question.cpp
-io.o: io.cpp io.h question.h
-	$(CC) -g -c io.cpp
-DatabaseClientUser.o: DatabaseClientUser.cpp DatabaseClientUser.h DatabaseClient.h
-	$(CC) -g -c DatabaseClientUser.cpp
+$(TARGET): $(OBJ)
+	$(CC) $(OBJ) -o $(TARGET)
+
+%.o: %.cpp (DEPS)
+	$(CC)	-c	%.cpp
 
 clean:
 	rm -f *.o
-	rm main
+	rm $(TARGET)
