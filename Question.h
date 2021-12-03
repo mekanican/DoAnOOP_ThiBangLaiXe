@@ -12,6 +12,7 @@ class Question {
   int m_rightAnswer;             // Thu tu cau tra loi dung (bat dau tu 0)
   string m_tip;                  // Goi y
   bool m_isRequired;             // Co phai cau liet
+  // Su dung enumerate Topic o day
  public:
   Question();  // Mac dinh co 4 phan tu cho vector
   Question(int id, string questionText, string imagePath, vector<string> answerTexts,
