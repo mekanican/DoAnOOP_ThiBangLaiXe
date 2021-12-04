@@ -82,5 +82,5 @@ void QuestionPack::loadMockTest(){
 }
 
 void QuestionPack::loadPractice(Topic topic){
-
+    return;
 }// tui dag rối chỗ này, mấy hàm này nè

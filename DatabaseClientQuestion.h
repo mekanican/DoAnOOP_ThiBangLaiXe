@@ -1,7 +1,8 @@
+#pragma once
 #include <string>
 #include <vector>
+#include <iostream>
 #include <filesystem>
-
 #include "Question.h"
 
 using std::string;
@@ -27,8 +28,10 @@ class DatabaseClientQuestion {
   vector<Question> read() {  // also known as query
       std::filesystem::path path{ BASE_DIR + m_type};
       for (auto& p : std::filesystem::recursive_directory_iterator(path)) {
-         string realPath = p.path();
+         string realPath = p.path().string();
          // Do something to file (also parse the path to get topic and required, use string::find())
+         std::cout << realPath << endl;
+         
       }
   }
 };
