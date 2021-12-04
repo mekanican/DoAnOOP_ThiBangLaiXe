@@ -7,8 +7,8 @@
 # $(TARGET): $(OBJ)
 # 	$(CC) $(OBJ) -std=c++2a -o $(TARGET)
 
-# %.o: %.cpp (DEPS)
-# 	$(CC)  -g -std=c++2a -c %.cpp
+# $(TARGET): $(OBJ)
+# 	$(CC) $(OBJ) -o $(TARGET)
 
 # clean:
 # 	rm -f *.o

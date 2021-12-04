@@ -30,20 +30,22 @@ class DatabaseClientQuestion {
  public:
   explicit DatabaseClientQuestion(string type) : m_type(type) {}
 
-  // vector<Question> read() {  // also known as query
-  //   std::filesystem::path path{BASE_DIR + m_type};
-  //   for (auto& p : std::filesystem::recursive_directory_iterator(path)) {
-  //     string realPath = p.path().string();
-  //     // Do something to file (also parse the path to get topic and required,
-  //     // use string::find())
-  //     std::cout << realPath << endl;
-  //   }
-  // }
-
   void read();
 
   friend int main();
   friend class Question;
   friend class QuestionPack;
+
+  // vector<Question> read() {  // also known as query
+  //     std::filesystem::path path{ BASE_DIR + m_type};
+  //     vector<Question> res;
+  //     for (auto& p : std::filesystem::recursive_directory_iterator(path)) {
+  //        string realPath = p.path().string();
+  //        // Do something to file (also parse the path to get topic and required, use string::find())
+  //        std::cout << realPath << endl;
+         
+  //     }
+  //     return res;
+  // }
 };
 #endif
