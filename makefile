@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # CC = g++
 # TARGET = main
 # OBJ = DatabaseClientUser.o io.o Question.o main.o QuestionPack.o DatabaseClientQuestion.o
@@ -13,6 +14,22 @@
 # clean:
 # 	rm -f *.o
 # 	rm $(TARGET)
+=======
+CC = g++
+CFLAGS = --std=c++17 -c
+
+
+TARGET = main
+OBJ = DatabaseClientUser.o io.o Question.o main.o 
+CPP = DatabaseClientUser.cpp io.cpp Question.cpp main.cpp
+DEPS = DatabaseClientUser.h DatabaseClient.h constants.h io.h Mode.h Question.h Score.h User.h
+
+$(TARGET): $(OBJ)
+	$(CC) $(OBJ)  -o $(TARGET)
+
+./%.o: ./%.cpp $(DEPS)
+	$(CC) $(CFLAGS)	$<
+>>>>>>> Stashed changes
 
 CC = g++
 all: main.o Question.o io.o DatabaseClientQuestion.o QuestionPack.o

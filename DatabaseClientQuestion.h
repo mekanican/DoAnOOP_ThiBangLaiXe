@@ -8,10 +8,15 @@
 #include <vector>
 
 #include "Question.h"
+<<<<<<< Updated upstream
 #include "constants.h"
+=======
+#include "io.h"
+>>>>>>> Stashed changes
 
 using std::string;
 using std::vector;
+namespace fs = std::filesystem;
 
 const string BASE_DIR = "data";
 
@@ -30,6 +35,7 @@ class DatabaseClientQuestion {
  public:
   explicit DatabaseClientQuestion(string type) : m_type(type) {}
 
+<<<<<<< Updated upstream
   void read();
 
   friend int main();
@@ -47,5 +53,25 @@ class DatabaseClientQuestion {
   //     }
   //     return res;
   // }
+=======
+  vector<Question> read() {  // also known as query
+    string file_name = BASE_DIR + string("/") + m_type;
+    cout << file_name << endl;
+    fs::path path{file_name};
+    vector<Question> res;
+    for (auto& p : fs::recursive_directory_iterator(path)) {
+      string realPath = p.path().string();
+      // Do something to file (also parse the path to get topic and required,
+      // use string::find())
+      QuestionLoader loader;
+      Question question;
+      if( realPath.find(".txt") != string::npos){
+        question = loader.Load(realPath, false);
+        res.push_back(question);
+      }
+    }
+    return res;
+  }
+>>>>>>> Stashed changes
 };
 #endif
