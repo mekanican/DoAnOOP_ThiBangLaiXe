@@ -1,9 +1,14 @@
 #include "Question.h"
 
-// class Question 
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+
+// class Question
 Question::Question() {}
-Question::Question(int id, string questionText, string imagePath, vector<string> answerTexts, int rightAnswer, string tip, bool isRequired)
-{
+Question::Question(int id, string questionText, string imagePath,
+                   vector<string> answerTexts, int rightAnswer, string tip,
+                   bool isRequired) {
   this->m_id = id;
   this->m_questionText = questionText;
   this->m_imagePath = imagePath;
@@ -13,74 +18,46 @@ Question::Question(int id, string questionText, string imagePath, vector<string>
   this->m_isRequired = isRequired;
 }
 
-  bool Question::required()
-  {
-    return this->m_isRequired;
-  }             // Co phai cau liet (getter cho m_isRequired)
+bool Question::required() {
+  return this->m_isRequired;
+}  // Co phai cau liet (getter cho m_isRequired)
 
-  bool Question::checkAnswer(int choice){
-      return m_rightAnswer == choice;
-  }
+bool Question::checkAnswer(int choice) { return m_rightAnswer == choice; }
 
-  string Question::getQuestionText(){
-      return m_questionText;
-  }
-  
-  string Question::getAnswerText(int index){
-      return m_answerTexts[index];
-  } // Lay cau tra loi vi tri index
-  
-  string Question::getTip(){
-      return m_tip;
-  }                  // Lay goi y
-  
-  string Question::getImagePath(){
-      return m_imagePath;
-  }          // Lay duong dan
+string Question::getQuestionText() { return m_questionText; }
 
-  void Question::setQuestionText(string const& questionText)  // setter m_questionText;
-  {
-    this->m_questionText = questionText;
-  }
+string Question::getAnswerText(int index) {
+  return m_answerTexts[index];
+}  // Lay cau tra loi vi tri index
 
-  void Question::setAnswerText(string const& answerText, int index)    // setter m_answerTexts
-  {
-      this->m_answerTexts[index] = answerText;
-  }
+string Question::getTip() { return m_tip; }  // Lay goi y
 
-  void Question::setRightAnswer(int rightAnswer)       // setter m_rightAnswer;
-  {
-      this->m_rightAnswer = rightAnswer;
-  }
+string Question::getImagePath() { return m_imagePath; }  // Lay duong dan
 
-  void Question::setTip(string const& tip){
-      m_tip = tip;
-  }       
-
-  void Question::setRequired(bool isRequired){
-      m_isRequired = isRequired;
-  }         // setter required;
-  
-  void Question::setImagePath(string const& imagePath){
-      m_imagePath = imagePath;
-  }
-
-// class QuestionPack
-QuestionPack::QuestionPack(){}
-QuestionPack::QuestionPack(Type type, vector<Question> questions){
-    m_type = type;
-    m_questions = questions;
-}
-// Need processed input from other class
-
-int QuestionPack::evaluateScore(){
-    return 0;
+void Question::setQuestionText(
+    string const& questionText)  // setter m_questionText;
+{
+  this->m_questionText = questionText;
 }
 
-void QuestionPack::loadMockTest(){
-    return;
+void Question::setAnswerText(string const& answerText,
+                             int index)  // setter m_answerTexts
+{
+  this->m_answerTexts[index] = answerText;
 }
 
-void QuestionPack::loadPractice(Topic topic){
-    return;
-}// tui dag rối chỗ này, mấy hàm này nè
+void Question::setRightAnswer(int rightAnswer)  // setter m_rightAnswer;
+{
+  this->m_rightAnswer = rightAnswer;
+}
+
+void Question::setTip(string const& tip) { m_tip = tip; }
+
+void Question::setRequired(bool isRequired) {
+  m_isRequired = isRequired;
+}  // setter required;
+
+void Question::setImagePath(string const& imagePath) {
+  m_imagePath = imagePath;
+}
+
