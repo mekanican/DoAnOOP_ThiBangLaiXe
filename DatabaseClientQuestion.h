@@ -27,11 +27,13 @@ class DatabaseClientQuestion {
 
   vector<Question> read() {  // also known as query
       std::filesystem::path path{ BASE_DIR + m_type};
+      vector<Question> res;
       for (auto& p : std::filesystem::recursive_directory_iterator(path)) {
          string realPath = p.path().string();
          // Do something to file (also parse the path to get topic and required, use string::find())
          std::cout << realPath << endl;
          
       }
+      return res;
   }
 };

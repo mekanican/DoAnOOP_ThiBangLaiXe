@@ -52,6 +52,7 @@ vector<User> DatabaseClientUser::toVUser(string users){
         User user(info[0], info[1]);
         res.push_back(user);
     }
+    return res;
 }
 
 string DatabaseClientUser::fromUser(User user){
