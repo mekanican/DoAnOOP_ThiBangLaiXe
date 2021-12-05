@@ -1,20 +1,20 @@
+#include <QGuiApplication>
+#include <QQmlApplicationEngine>
+#include <QQuickStyle>
 
-// #include <experimental/filesystem>
-#include <iostream>
-#include <string>
-#include <ctime>
-#include <cstdlib>
+#include "backend.h"
+#include "backendquestion.h"
 
-#include "QuestionPack.h"
+int main(int argc, char *argv[])
+{
+    QGuiApplication app(argc, argv);
 
-using namespace std;
+    qmlRegisterType<BackEnd>("io.qt.examples.backend", 1, 0, "BackEnd");
+    qmlRegisterType<BackEndQuestion>("io.question", 1, 0, "BackEndQuestion");
 
-int main() {
-  QuestionPack test;
-  srand((unsigned int)time(0));
+    QQmlApplicationEngine engine;
+    QQuickStyle::setStyle("Material");
+    engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
 
-  test.loadMockTest();
-  test.startTest();
-
-  return 0;
+    return app.exec();
 }

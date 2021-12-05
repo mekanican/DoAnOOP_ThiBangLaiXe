@@ -16,5 +16,5 @@ public:
     }
     string Username(){ return m_userName; }
     string Password(){ return m_password; }
-    bool authenticate(){ return m_isAuth;}
+    bool authenticate(){ m_isAuth = true; return m_isAuth; }
 };

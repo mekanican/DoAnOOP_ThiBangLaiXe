@@ -58,6 +58,8 @@ Item {
                     stackView.push("playground.qml")
 //                    realName.text = backend.realName
 //                    realName.enabled = true
+                    counter.value = 30
+                    counter.visible = true
                 }
             }
         }

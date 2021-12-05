@@ -32,7 +32,7 @@ class DatabaseClientQuestion {
 
   void read();
 
-  friend int main();
+//  friend int main();
   friend class Question;
   friend class QuestionPack;
 

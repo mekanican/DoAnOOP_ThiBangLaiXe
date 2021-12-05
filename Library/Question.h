@@ -36,6 +36,6 @@ class Question {
   void setTip(string const& tip);              // setter m_tip
   void setRequired(bool isRequired);           // setter required;
   void setImagePath(string const& imagePath);  // setter m_imagePath
-  friend int main();
+//  friend int main();
   friend class QuestionPack;
 };

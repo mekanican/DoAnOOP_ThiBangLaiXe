@@ -25,6 +25,21 @@ ApplicationWindow {
             font.family: "Open sans"
             font.pointSize: 22
         }
+        Text {
+            id: counter
+            anchors.right: parent.right
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.rightMargin: 20
+            property int value: 0
+            text: Math.floor(value / 60).toString()
+                  + ":"
+                  + ((value % 60) < 10 ? "0" : "")
+                  + (value % 60).toString()
+            font.pointSize: 20
+            color: Material.color(Material.Red)
+            visible: false;
+        }
+
         ToolButton {
             id: toolButton
             text: stackView.depth > 1 ? "\u25C0" : "\u25BD"

@@ -27,6 +27,7 @@ bool Question::checkAnswer(int choice) { return m_rightAnswer == choice; }
 string Question::getQuestionText() { return m_questionText; }
 
 string Question::getAnswerText(int index) {
+  if (index >= m_answerTexts.size()) return "";
   return m_answerTexts[index];
 }  // Lay cau tra loi vi tri index
 

@@ -17,6 +17,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+        Library/DatabaseClientQuestion.cpp \
+        Library/DatabaseClientUser.cpp \
+        Library/Question.cpp \
+        Library/QuestionPack.cpp \
+        Library/io.cpp \
         backend.cpp \
         backendquestion.cpp \
         main.cpp
@@ -35,6 +40,16 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
+    Library/DatabaseClientQuestion.h \
+    Library/DatabaseClientUser.h \
+    Library/Mode.h \
+    Library/Question.h \
+    Library/QuestionPack.h \
+    Library/Score.h \
+    Library/Tokenizer.h \
+    Library/User.h \
+    Library/constants.h \
+    Library/io.h \
     backend.h \
     backendquestion.h
 
