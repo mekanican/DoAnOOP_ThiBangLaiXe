@@ -50,6 +50,7 @@ HEADERS += \
     Library/User.h \
     Library/constants.h \
     Library/io.h \
+    Library/tinydir.h \
     backend.h \
     backendquestion.h
 

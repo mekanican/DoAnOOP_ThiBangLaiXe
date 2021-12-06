@@ -223,7 +223,7 @@ public slots:
         m_c4 = QString::fromStdString(q.getAnswerText(3));
         m_path = QString::fromStdString(q.getImagePath());
         if (m_path != "") {
-            m_path = "file://" + QDir::currentPath() + "/data/" + m_path;
+            m_path = "file:///" + QDir::currentPath() + "/data/" + m_path;
         }
         reset(true);
         if(m_qPack->getSavedAnswer() == 0) {
