@@ -21,6 +21,8 @@ class Question {
            bool isRequired);
   // Default copy constructor & no need Destructor
 
+  int getID();
+
   bool required();               // Co phai cau liet (getter cho m_isRequired)
   bool checkAnswer(int choice);  // Kiem tra dap an dung
 

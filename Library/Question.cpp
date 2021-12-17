@@ -18,6 +18,10 @@ Question::Question(int id, string questionText, string imagePath,
   this->m_isRequired = isRequired;
 }
 
+int Question::getID() {
+    return m_id;
+}
+
 bool Question::required() {
   return this->m_isRequired;
 }  // Co phai cau liet (getter cho m_isRequired)
