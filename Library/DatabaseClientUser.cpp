@@ -3,7 +3,7 @@
 #include <iostream>
 #include <sstream>
 #include "Tokenizer.h"
-#define USER_LOCATION "UserDatabase.txt"
+#define USER_LOCATION "D:\\DoAnOOP\\Library\\UserDatabase.txt"
 
 void DatabaseClientUser::creat(){
     string file_name = USER_LOCATION;
@@ -27,9 +27,10 @@ vector<string> DatabaseClientUser::read(){
     string buffer;
     while (true){
         getline(fi, buffer);
-        if(fi.eof()) break;
         userInfo.push_back(buffer);
+        if(fi.eof()) break;
     }
+    fi.close();
     return userInfo;
 }
 
@@ -37,20 +38,17 @@ void DatabaseClientUser::update(string info){
     fstream out;
     out.open(USER_LOCATION, ios::app);
     if(!out.is_open()) return;
-    out << info;
+    out << endl << info;
     out.close();
 }
 
-vector<User> DatabaseClientUser::toVUser(string users){
+vector<User> DatabaseClientUser::toVUser(vector<string> users){
     // tui khong hieu string o day la gi, tui ngam hieu la data user nhe.
     vector<User> res;
-    stringstream ss(users);
-    for(int i = 0; i < 10; i++){
-        string tmp;
-        ss >> tmp;
-        vector<string> info = Tokenizer::parse(tmp, ";");
+    for (auto i : users) {
+        vector<string> info = Tokenizer::parse(i, ";");
         User user(info[0], info[1]);
-        res.push_back(user);
+        res.push_back(user);   
     }
     return res;
 }
