@@ -2,7 +2,17 @@
     "files.associations": {
         "ostream": "cpp",
         "iostream": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "array": "cpp",
+        "chrono": "cpp",
+        "filesystem": "cpp",
+        "format": "cpp",
+        "forward_list": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
     },
     "files.eol": "\r\n"
 }

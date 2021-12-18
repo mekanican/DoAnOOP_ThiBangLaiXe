@@ -1,6 +1,6 @@
 #ifndef DB_CLIENT_QUESTION_
 #define DB_CLIENT_QUESTION_
-#include <dirent.h>
+//#include <dirent.h>
 
 // #include <experimental/filesystem>
 #include <iostream>
@@ -22,14 +22,18 @@ const string BASE_DIR = "data";
 //     "Nghiep_Vu_Van_Tai"};
 
 // char const* REQUIRED[] = {"Liet", "BinhThuong"};
+class DatabaseQuestionInterface{
+public:
+  virtual void read() = 0;
+};
 
-class DatabaseClientQuestion {
+class DatabaseClientQuestion : public DatabaseQuestionInterface {
   string m_type;
   vector<Question> topic[7];
 
  public:
   explicit DatabaseClientQuestion(string type) : m_type(type) {}
-
+  string getType(){ return m_type; }
   void read();
 
 //  friend int main();
@@ -49,3 +53,26 @@ class DatabaseClientQuestion {
   // }
 };
 #endif
+
+
+class ProxyDataQuestion : public DatabaseQuestionInterface{
+private:
+  DatabaseClientQuestion *m_service;
+  vector<string> m_cachedType;
+public:
+  ProxyDataQuestion(DatabaseClientQuestion * service){
+    m_service = service;
+  }
+  
+  ~ProxyDataQuestion(){
+    delete m_service;
+  }
+
+  void read(){
+    string type = m_service->getType();
+    if(find(m_cachedType.begin(), m_cachedType.end(), type) == m_cachedType.end()){
+      m_cachedType.push_back(type);
+      m_service->read();
+    }
+  }
+};
