@@ -52,13 +52,11 @@ class DatabaseClientQuestion : public DatabaseQuestionInterface {
   //     return res;
   // }
 };
-#endif
-
 
 class ProxyDataQuestion : public DatabaseQuestionInterface{
 private:
   DatabaseClientQuestion *m_service;
-  vector<string> m_cachedType;
+  string m_cachedType;
 public:
   ProxyDataQuestion(DatabaseClientQuestion * service){
     m_service = service;
@@ -70,9 +68,11 @@ public:
 
   void read(){
     string type = m_service->getType();
-    if(find(m_cachedType.begin(), m_cachedType.end(), type) == m_cachedType.end()){
-      m_cachedType.push_back(type);
+    if(m_cachedType != type){
+      m_cachedType = type;
       m_service->read();
     }
   }
 };
+
+#endif

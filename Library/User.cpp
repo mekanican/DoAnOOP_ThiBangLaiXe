@@ -2,39 +2,38 @@
 #include "User.h"
 #include "DatabaseClientUser.h"
 
-void User::login(string username, string password){
+string User::login(string username, string password){
     string info = username + ";" + password;
     DatabaseClientUser db;
     vector<string> accounts = db.read();
     for(auto i : accounts){
         if(i == info){
-            cout << "Login successfully!\n";
             this->m_password = password;
             this->m_username = username;
             this->m_isAuth = true;
-            return;
+            return "Login successfully!\n";
         }
     }
-    cout << "Login fail, wrong username or password\n";
+    return "Login fail, wrong username or password\n";
 }
 
-void User::regis(string username, string password){
+string User::regis(string username, string password){
     string info = username + ";" + password;
     DatabaseClientUser db;
     vector<User> users = DatabaseClientUser::toVUser(db.read());
     for(auto i : users){
         if(i.m_username == username){
-            cout << "This account has been created!\n";
-            return;
+            return "This account has been created!\n";
         }
     }
     db.update(info);
     this->m_username = username;
     this->m_password = password;
     this->m_isAuth = true;
-    cout << "Register successfully!\n";
+    return "Register successfully!\n";
 }
 
-void User::logout(){
+string User::logout(){
     this->m_isAuth = false;
+    return "Logged out!\n";
 }

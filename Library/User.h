@@ -21,7 +21,7 @@ public:
     string Username(){ return m_username; }
     string Password(){ return m_password; }
     bool authenticate(){ return m_isAuth; }
-    void login(string, string);
-    void regis(string, string);
-    void logout();
+    string login(string, string);
+    string regis(string, string);
+    string logout();
 };
