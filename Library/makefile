@@ -27,6 +27,8 @@ DatabaseClientQuestion.o: DatabaseClientQuestion.cpp DatabaseClientQuestion.h io
 	$(CC) -g -c DatabaseClientQuestion.cpp
 QuestionPack.o: QuestionPack.cpp QuestionPack.h
 	$(CC) -g -c QuestionPack.cpp
+User.o: User.cpp User.h
+	$(CC) -g -c User.cpp
 clean:
 	rm -f *.o
 	rm main
