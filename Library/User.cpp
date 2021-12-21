@@ -37,3 +37,9 @@ string User::logout(){
     this->m_isAuth = false;
     return "Logged out!\n";
 }
+
+bool User::operator==(const User &opr) const
+{
+    return (this->m_username == opr.m_username &&
+            this->m_password == opr.m_password);
+}

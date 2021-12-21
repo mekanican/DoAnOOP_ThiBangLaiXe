@@ -24,4 +24,6 @@ public:
     string login(string, string);
     string regis(string, string);
     string logout();
+
+    bool operator==(const User &opr) const;
 };

@@ -21,6 +21,8 @@ SOURCES += \
         Library/DatabaseClientUser.cpp \
         Library/Question.cpp \
         Library/QuestionPack.cpp \
+        Library/Score.cpp \
+        Library/User.cpp \
         Library/io.cpp \
         backend.cpp \
         backendquestion.cpp \
