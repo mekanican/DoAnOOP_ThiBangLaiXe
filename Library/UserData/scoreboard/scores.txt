@@ -1,7 +1,0 @@
-username123;;;password123;;;9;;;thisisdate&time
-username123;;;password123;;;8;;;thisisdate&time
-username123;;;password123;;;7;;;thisisdate&time
-username123;;;password123;;;6;;;thisisdate&time
-username1234;;;password123;;;5;;;thisisdate&time
-username1234;;;password123;;;4;;;thisisdate&time
-username1234;;;password123;;;3;;;thisisdate&time

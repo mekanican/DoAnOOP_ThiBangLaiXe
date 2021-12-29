@@ -33,11 +33,11 @@ const string TOPIC[] = {
 
 const string REQUIRED[] = {"Liet", "BinhThuong"};
 
-const string kScoreStringSeparator = ";;;";
-const int kScoreboardMaxSize = 100;
 const string kScoreboardFolder = "UserData/scoreboard/";
-//const string kScoreboardFileName = "scores.txt";
+const string kScoreStringSeparator = ";;;";
+const int kScoreboardMaxSize = 1000;
 const int kScoreboardPageSize = 5;
+const int kScoreboardPageLimit = 50;
 
 
 #endif 

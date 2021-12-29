@@ -18,8 +18,8 @@ public:
         m_username = name;
         m_isAuth = false;
     }
-    string Username(){ return m_username; }
-    string Password(){ return m_password; }
+    string Username() const { return m_username; }
+    string Password() const { return m_password; }
     bool authenticate(){ return m_isAuth; }
     string login(string, string);
     string regis(string, string);

@@ -44,6 +44,11 @@ User Score::getUser() const
     return this->m_user;
 }
 
+string Score::getUsername() const
+{
+    return this->m_user.Username();
+}
+
 string Score::getTime() const
 {
     return this->m_timeTaken;
@@ -54,7 +59,7 @@ string Score::getDate() const
     return this->m_date;
 }
 
-string Score::toString()
+string Score::toString() const
 {
     return m_user.Username() + kScoreStringSeparator +
            m_user.Password() + kScoreStringSeparator +
@@ -63,7 +68,7 @@ string Score::toString()
            m_date;
 }
 
-bool Score::isValid()
+bool Score::isValid() const
 {
     return ((!this->m_user.Username().empty()) &&
             (!this->m_user.Password().empty()) &&
@@ -110,6 +115,43 @@ bool Score::operator<=(const Score &s2) const
 //
 //
 //
+Scoreboard::Scoreboard()
+{
+
+}
+
+Scoreboard::~Scoreboard()
+{
+
+}
+
+string Scoreboard::GetFilePath(Type license_type)
+{
+    string type = toString(license_type), file_path;
+
+    file_path = kScoreboardFolder + type + ".txt";
+
+    return file_path;
+}
+
+void Scoreboard::Add(const Score &current_score, Type license_type)
+{
+    if (!current_score.isValid())
+        return;
+
+    string file_path = GetFilePath(license_type);
+    ofstream out_file(file_path, ios_base::app);
+
+    if (out_file.is_open() && out_file.good())
+    {
+        out_file << current_score.toString() << "\n";
+        out_file.close();
+    }
+}
+
+//
+//
+//
 
 ProxyScoreboard::ProxyScoreboard() : m_cached{0},
                                      m_currentType(Type::A1),
@@ -118,7 +160,7 @@ ProxyScoreboard::ProxyScoreboard() : m_cached{0},
     m_realScoreboard.resize(10);
     fill(m_realScoreboard.begin(), m_realScoreboard.end(), nullptr);
 
-    m_realScoreboard[m_typeIndex] = new Scoreboard(this->m_currentType);
+    m_realScoreboard[m_typeIndex] = new RealScoreboard(this->m_currentType);
     m_cached[m_typeIndex] = true;
 }
 
@@ -129,7 +171,7 @@ ProxyScoreboard::ProxyScoreboard(Type license_type) : m_cached{0},
     m_realScoreboard.resize(10);
     fill(m_realScoreboard.begin(), m_realScoreboard.end(), nullptr);
 
-    m_realScoreboard[m_typeIndex] = new Scoreboard(license_type);
+    m_realScoreboard[m_typeIndex] = new RealScoreboard(license_type);
 
     m_cached[m_typeIndex] = true;
 }
@@ -148,7 +190,7 @@ void ProxyScoreboard::setType(Type license_type)
     {
         m_currentType = license_type;
         m_cached[m_typeIndex] = true;
-        m_realScoreboard[m_typeIndex] = new Scoreboard(license_type);
+        m_realScoreboard[m_typeIndex] = new RealScoreboard(license_type);
     }
 }
 
@@ -162,7 +204,7 @@ void ProxyScoreboard::sort(bool isInc)
     m_realScoreboard[m_typeIndex]->sort(isInc);
 }
 
-Scoreboard ProxyScoreboard::UserScoreboard(User current_user)
+RealScoreboard ProxyScoreboard::UserScoreboard(User current_user)
 {
     return m_realScoreboard[m_typeIndex]->UserScoreboard(current_user);
 }
@@ -187,15 +229,57 @@ void ProxyScoreboard::removeAll()
     m_realScoreboard[m_typeIndex]->removeAll();
 }
 
+int ProxyScoreboard::MaxPage() const
+{
+    return m_realScoreboard[m_typeIndex]->MaxPage();
+}
+
+vector<Score> ProxyScoreboard::getPage(int page_number)
+{
+    return m_realScoreboard[m_typeIndex]->getPage(page_number);
+}
+
+vector<Score> ProxyScoreboard::getCurrentPage()
+{
+    return m_realScoreboard[m_typeIndex]->getCurrentPage();
+}
+
+vector<Score> ProxyScoreboard::getPreviousPage()
+{
+    return m_realScoreboard[m_typeIndex]->getPreviousPage();
+}
+
+vector<Score> ProxyScoreboard::getNextPage()
+{
+    return m_realScoreboard[m_typeIndex]->getNextPage();
+}
+
+vector<Score> ProxyScoreboard::getFirstPage()
+{
+    return m_realScoreboard[m_typeIndex]->getFirstPage();
+}
+
+vector<Score> ProxyScoreboard::getLastPage()
+{
+    return m_realScoreboard[m_typeIndex]->getLastPage();
+}
+
 //
 //
 //
-Scoreboard::Scoreboard() : order_(0), m_licenseType(Type::A1), m_saved(true)
+RealScoreboard::RealScoreboard() : m_licenseType(Type::A1),
+                                   m_saved(true),
+                                   m_currentPage(1),
+                                   order_(0)
 {
 
 }
 
-Scoreboard::Scoreboard(Type license_type) : order_(0), m_saved(true)
+RealScoreboard::RealScoreboard(Type license_type) : m_licenseType(license_type),
+                                                    m_saved(true),
+                                                    m_currentPage(1),
+                                                    order_(0)
+
 {
     string file_path = GetFilePath(license_type);
     ifstream in_file(file_path, ios_base::in);
@@ -224,13 +308,13 @@ Scoreboard::Scoreboard(Type license_type) : order_(0), m_saved(true)
     }
 }
 
-Scoreboard::~Scoreboard()
+RealScoreboard::~RealScoreboard()
 {
     if (!this->m_saved)
         this->save();
 }
 
-void Scoreboard::save()
+void RealScoreboard::save()
 {
     // neu *this la` scoreboard cua user
     if (this->order_ > 1 || this->m_saved == true)
@@ -255,7 +339,7 @@ void Scoreboard::save()
     }
 }
 
-void Scoreboard::sort(bool isInc)
+void RealScoreboard::sort(bool isInc)
 {
     if (!scoreboard_.empty()) {
         if (isInc)
@@ -269,13 +353,14 @@ void Scoreboard::sort(bool isInc)
             this->order_ = 0;
         }
 
-        m_saved = true;
+        m_saved = false;
+        m_currentPage = 1;
     }
 }
 
-Scoreboard Scoreboard::UserScoreboard(User current_user)
+RealScoreboard RealScoreboard::UserScoreboard(User current_user)
 {
-    Scoreboard res = *this;
+    RealScoreboard res = *this;
 
     for (vector<Score>::iterator it = res.scoreboard_.begin(); it < res.scoreboard_.end(); it++)
         if (!(it->getUser() == current_user))
@@ -283,11 +368,12 @@ Scoreboard Scoreboard::UserScoreboard(User current_user)
 
     res.order_ = 2;
     res.m_saved = true;
+    res.m_currentPage = 1;
 
     return res;
 }
 
-void Scoreboard::add(Score new_score)
+void RealScoreboard::add(Score new_score)
 {
     this->scoreboard_.push_back(new_score);
     this->sort(false);
@@ -295,7 +381,7 @@ void Scoreboard::add(Score new_score)
     m_saved = false;
 }
 
-void Scoreboard::remove(User user_to_remove)
+void RealScoreboard::remove(User user_to_remove)
 {
     bool found = false;
     for (vector<Score>::iterator it = scoreboard_.begin(); it < scoreboard_.end(); it++)
@@ -310,7 +396,7 @@ void Scoreboard::remove(User user_to_remove)
     this->m_saved = !found;
 }
 
-void Scoreboard::remove(User user, string time_taken, string date)
+void RealScoreboard::remove(User user, string time_taken, string date)
 {
     bool found = false;
 
@@ -326,14 +412,14 @@ void Scoreboard::remove(User user, string time_taken, string date)
     this->m_saved = !found;
 }
 
-void Scoreboard::removeAll()
+void RealScoreboard::removeAll()
 {
     this->scoreboard_.clear();
 
     this->m_saved = false;
 }
 
-vector<Score> Scoreboard::getList(int from, int to) const
+vector<Score> RealScoreboard::getList(int from, int to) const
 {
     vector<Score> res;
 
@@ -344,50 +430,64 @@ vector<Score> Scoreboard::getList(int from, int to) const
     return res;
 }
 
-int Scoreboard::MaxPage() const
+int RealScoreboard::MaxPage() const
 {
     int size = scoreboard_.size();
 
-    return (size / kScoreboardPageSize + ((size % kScoreboardPageSize == 0) ? 0 : 1));
+    return min((size / kScoreboardPageSize + ((size % kScoreboardPageSize == 0) ? 0 : 1)), kScoreboardPageLimit);
 }
 
-vector<Score> Scoreboard::getPage(int page_number) const
+vector<Score> RealScoreboard::getPage(int page_number)
 {
 
     if (page_number > 0 && page_number <= this->MaxPage())
     {
+        m_currentPage = page_number;
         int first_index = 5 * (page_number - 1), last_index = 5 * page_number - 1;
 
         return this->getList(first_index, last_index);
     }
 
+    return getPage(m_currentPage);
+}
+
+vector<Score> RealScoreboard::getCurrentPage()
+{
+    if (m_currentPage >= 1 && m_currentPage <= this->MaxPage())
+        return this->getPage(m_currentPage);
+
     return vector<Score>();
 }
 
-
-//
-//
-//
-string Scoreboard::GetFilePath(Type license_type)
+vector<Score> RealScoreboard::getPreviousPage()
 {
-    string type = toString(license_type), file_path;
+    if (m_currentPage > 1)
+        m_currentPage--;
 
-    file_path = kScoreboardFolder + type + ".txt";
-
-    return file_path;
+    return this->getCurrentPage();
 }
 
-void Scoreboard::Save(const Score &current_score, Type license_type)
+vector<Score> RealScoreboard::getNextPage()
 {
-    if (!current_score.isValid())
-        return;
+    if (m_currentPage < this->MaxPage())
+        m_currentPage++;
 
-    string file_path = GetFilePath(license_type);
-    ofstream out_file(file_path, ios_base::app);
-
-    if (out_file.is_open() && out_file.good())
-    {
-        out_file << current_score.toString() << "\n";
-        out_file.close();
-    }
+   return this->getCurrentPage();
 }
+
+vector<Score> RealScoreboard::getFirstPage()
+{
+    this->m_currentPage = 1;
+    return this->getCurrentPage();
+}
+
+vector<Score> RealScoreboard::getLastPage()
+{
+    this->m_currentPage = this->MaxPage();
+    return this->getCurrentPage();
+}
+
+//
+//
+//
+
