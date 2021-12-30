@@ -4,8 +4,6 @@ import QtQuick.Layouts 1.12
 import QtQuick.Controls.Material 2.12
 import QtQuick.Dialogs 1.2
 
-import io.question 1.0
-
 Item {
 
     MessageDialog {
@@ -18,9 +16,6 @@ Item {
         }
     }
 
-    BackEndQuestion {
-        id: backend
-    }
     Layout.fillWidth: true
     Rectangle {
         id: ques
@@ -34,7 +29,7 @@ Item {
 //                q.text = "OUT OF TIME"
                 counter.value--;
                 if (counter.value === 0) {
-                    q.text = "OUT OF TIME"
+//                    q.text = "OUT OF TIME"
                     stop();
                     messageDialog.correct = backend.getCorrect();
                     messageDialog.open();

@@ -16,6 +16,10 @@ ApplicationWindow {
     visible: true
     title: qsTr("Application")
 
+    BackEnd {
+        id: backend
+    }
+
     header: ToolBar {
         contentHeight: toolButton.implicitHeight
         Text {
@@ -92,7 +96,7 @@ ApplicationWindow {
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
                     title_.text = qsTr("Giới thiệu")
-                    stackView.push("about.qml")
+                    stackView.push("scoreboard.qml") // change about.qml for testing
                     layer1.visible = false
                 }
                 Material.background: Material.Teal

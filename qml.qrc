@@ -5,5 +5,8 @@
         <file>login.qml</file>
         <file>empty.qml</file>
         <file>playground.qml</file>
+        <file>type_selection.qml</file>
+        <file>mode_selection.qml</file>
+        <file>scoreboard.qml</file>
     </qresource>
 </RCC>

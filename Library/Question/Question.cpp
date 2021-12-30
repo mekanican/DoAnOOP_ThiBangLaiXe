@@ -18,6 +18,8 @@ Question::Question(int id, string questionText, string imagePath,
   this->m_isRequired = isRequired;
 }
 
+int Question::getID() { return m_id; }
+
 bool Question::required() {
   return this->m_isRequired;
 }  // Co phai cau liet (getter cho m_isRequired)
@@ -27,7 +29,7 @@ bool Question::checkAnswer(int choice) { return m_rightAnswer == choice; }
 string Question::getQuestionText() { return m_questionText; }
 
 string Question::getAnswerText(int index) {
-  if (index >= m_answerTexts.size()) return "";
+  if (index >= (int)m_answerTexts.size()) return "";
   return m_answerTexts[index];
 }  // Lay cau tra loi vi tri index
 
@@ -61,4 +63,3 @@ void Question::setRequired(bool isRequired) {
 void Question::setImagePath(string const& imagePath) {
   m_imagePath = imagePath;
 }
-

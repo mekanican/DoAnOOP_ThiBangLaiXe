@@ -1,6 +1,6 @@
 QT += quick quickcontrols2
 
-CONFIG += c++11
+CONFIG += c++17
 CONFIG += qmltypes
 #QML_IMPORT_NAME = io.qt.examples.backend
 #QML_IMPORT_MAJOR_VERSION = 1
@@ -17,15 +17,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        Library/DatabaseClientQuestion.cpp \
-        Library/DatabaseClientUser.cpp \
-        Library/Question.cpp \
-        Library/QuestionPack.cpp \
-        Library/Score.cpp \
-        Library/User.cpp \
-        Library/io.cpp \
+        Library/Filter/fifty_fifty.cpp \
+        Library/Filter/question_filter.cpp \
+        Library/Filter/shuffle_answer.cpp \
+        Library/Filter/shuffle_question.cpp \
+        Library/Filter/topic_filter.cpp \
+        Library/Question/DatabaseQuestion.cpp \
+        Library/Question/Question.cpp \
+        Library/Question/QuestionPack.cpp \
+        Library/Scoreboard/Score.cpp \
+        Library/User/DatabaseUser.cpp \
+        Library/User/User.cpp \
+        Library/Utility/io.cpp \
         backend.cpp \
-        backendquestion.cpp \
         main.cpp
 
 RESOURCES += qml.qrc
@@ -42,19 +46,26 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    Library/DatabaseClientQuestion.h \
-    Library/DatabaseClientUser.h \
-    Library/Mode.h \
-    Library/Question.h \
-    Library/QuestionPack.h \
-    Library/Score.h \
-    Library/Tokenizer.h \
-    Library/User.h \
-    Library/constants.h \
-    Library/io.h \
-    Library/tinydir.h \
-    backend.h \
-    backendquestion.h
+    Library/Filter/fifty_fifty.h \
+    Library/Filter/filter.h \
+    Library/Filter/question_filter.h \
+    Library/Filter/random_generator.h \
+    Library/Filter/shuffle_answer.h \
+    Library/Filter/shuffle_question.h \
+    Library/Filter/topic_data.h \
+    Library/Filter/topic_filter.h \
+    Library/Question/DatabaseQuestion.h \
+    Library/Question/Question.h \
+    Library/Question/QuestionPack.h \
+    Library/Scoreboard/Score.h \
+    Library/User/DatabaseUser.h \
+    Library/User/User.h \
+    Library/Utility/Mode.h \
+    Library/Utility/Tokenizer.h \
+    Library/Utility/constants.h \
+    Library/Utility/io.h \
+    Library/Utility/tinydir.h \
+    backend.h
 
 DISTFILES +=
 

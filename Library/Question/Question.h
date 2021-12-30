@@ -1,5 +1,5 @@
 #pragma once
-#include "constants.h"
+#include "../Utility/constants.h"
 
 using std::string;
 using std::vector;
@@ -21,6 +21,8 @@ class Question {
            bool isRequired);
   // Default copy constructor & no need Destructor
 
+  int getID();
+
   bool required();               // Co phai cau liet (getter cho m_isRequired)
   bool checkAnswer(int choice);  // Kiem tra dap an dung
 
@@ -36,6 +38,6 @@ class Question {
   void setTip(string const& tip);              // setter m_tip
   void setRequired(bool isRequired);           // setter required;
   void setImagePath(string const& imagePath);  // setter m_imagePath
-//  friend int main();
+                                               //  friend int main();
   friend class QuestionPack;
 };

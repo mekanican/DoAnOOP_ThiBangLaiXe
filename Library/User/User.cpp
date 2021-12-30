@@ -1,10 +1,10 @@
 #include <iostream>
 #include "User.h"
-#include "DatabaseClientUser.h"
+#include "DatabaseUser.h"
 
 string User::login(string username, string password){
     string info = username + ";" + password;
-    DatabaseClientUser db;
+    DatabaseUser db;
     vector<string> accounts = db.read();
     for(auto i : accounts){
         if(i == info){
@@ -19,8 +19,8 @@ string User::login(string username, string password){
 
 string User::regis(string username, string password){
     string info = username + ";" + password;
-    DatabaseClientUser db;
-    vector<User> users = DatabaseClientUser::toVUser(db.read());
+    DatabaseUser db;
+    vector<User> users = DatabaseUser::toVUser(db.read());
     for(auto i : users){
         if(i.m_username == username){
             return "This account has been created!\n";

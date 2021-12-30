@@ -2,22 +2,19 @@ import QtQuick 2.0
 import QtQuick.Controls 2.0
 import io.qt.examples.backend 1.0
 import QtQuick.Layouts 1.12
+import QtQuick.Dialogs 1.2
 
 Item {
-    BackEnd {
-        id: backend
+    MessageDialog {
+        id: messageDialog
+        property string response
+        title: "Thông báo"
+        text: response
+        onAccepted: {}
     }
+
     Column {
         anchors.centerIn: parent
-//        TextField {
-//            width: 200
-//            id: rname
-//            text: backend.realName
-//            placeholderText: qsTr("Realname")
-//            KeyNavigation.tab: login
-//            onTextChanged: backend.realName = text
-//            visible: false
-//        }
         TextField {
             width: 200
             id: login
@@ -41,9 +38,6 @@ Item {
             anchors.horizontalCenter: parent.horizontalCenter
             id: res
             text: "Đăng Ký"
-//            onClicked: {
-//                rname.visible = true;
-//            }
         }
 
         Button {
@@ -51,15 +45,15 @@ Item {
             id: go
             text: "Đăng Nhập"
             onClicked: {
-                backend.buttonClick(res.checkState === Qt.Checked)
+                messageDialog.response = backend.buttonClick(res.checkState === Qt.Checked)
+                messageDialog.open();
+                messageDialog.Ok;
                 if (backend.isLogin === true) {
                     title_.text = "Chào mừng " + backend.realName
                     stackView.pop()
-                    stackView.push("playground.qml")
-//                    realName.text = backend.realName
-//                    realName.enabled = true
-                    counter.value = 30
-                    counter.visible = true
+                    stackView.push("type_selection.qml")
+//                    counter.value = 240
+//                    counter.visible = true
                 }
             }
         }

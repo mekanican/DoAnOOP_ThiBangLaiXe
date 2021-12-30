@@ -1,11 +1,11 @@
 #ifndef QUESTION_PACK_H_
 #define QUESTION_PACK_H_
-#include "DatabaseClientQuestion.h"
+#include "DatabaseQuestion.h"
 #include "Question.h"
 
 class QuestionPack {
  private:
-  DatabaseClientQuestion type_db;
+  DatabaseQuestion type_db;
   Type m_type;
   vector<Question> m_questions;
   vector<int> m_savedAnswers;
