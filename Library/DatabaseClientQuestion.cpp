@@ -6,6 +6,8 @@
 #include "tinydir.h"
 
 void DatabaseClientQuestion::read() {
+  if(m_status != "no data") return;
+  m_status = "Data: " + m_type;
   string type_dir_path = BASE_DIR + "/" + m_type + "/";
 //  DIR* question_dir = nullptr;
 //  dirent* file = nullptr;
@@ -24,12 +26,12 @@ void DatabaseClientQuestion::read() {
               Question{QuestionLoader::Load(question_dir_path + file.name, (bool)j)});
       }
 
-//      while ((file = readdir(question_dir)) != nullptr &&
-//             string{file->d_name}.length() > 2) {
-//        file_path = question_dir_path + file->d_name;
-//        this->topic[i].push_back(
-//            Question{QuestionLoader::Load(file_path, (bool)j)});
-//      }
+    //  while ((file = readdir(question_dir)) != nullptr &&
+    //         string{file->d_name}.length() > 2) {
+    //    file_path = question_dir_path + file->d_name;
+    //    this->topic[i].push_back(
+    //        Question{QuestionLoader::Load(file_path, (bool)j)});
+    //  }
       tinydir_close(&dir);
     }
 }

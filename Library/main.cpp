@@ -8,22 +8,19 @@
 
 using namespace std;
 
-void loginTest(){
-  User userA;
-  userA.login("hello123", "123456");
-  userA.login("ahihi", "123456");
-  userA.regis("ahihi", "123456");
-  userA.login("ahihi", "123456");
-  userA.regis("ahihi", "123456");
-}
-
-void proxyTest(){
-  DatabaseClientQuestion *service = new DatabaseClientQuestion("A1");
-  ProxyDataQuestion proxyService(service);
-  proxyService.read();
-}
+// void loginTest(){
+//   User userA;
+//   userA.login("hello123", "123456");
+//   userA.login("ahihi", "123456");
+//   userA.regis("ahihi", "123456");
+//   userA.login("ahihi", "123456");
+//   userA.regis("ahihi", "123456");
+// }
 
 int main() {
+  DatabaseClientQuestion database("A1");
+  database.read();
+  database.show();
   // QuestionPack test;
   // srand((unsigned int)time(0));
 
