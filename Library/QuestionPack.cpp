@@ -84,5 +84,9 @@ void QuestionPack::startTest() {
 }
 
 void QuestionPack::loadPractice(Topic topic) {
-  return;
-}  // tui dag rối chỗ này, mấy hàm này nè
+  int index = static_cast<int>(topic);
+  for(auto i : type_db.topic[index]){
+    cout << "e";
+    m_questions.push_back(i);
+  }
+}

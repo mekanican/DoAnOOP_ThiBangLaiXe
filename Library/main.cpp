@@ -18,14 +18,15 @@ using namespace std;
 // }
 
 int main() {
-  DatabaseClientQuestion database("A1");
-  database.read();
-  database.show();
-  // QuestionPack test;
+  // DatabaseClientQuestion database("A1");
+  // database.read();
+  // database.show();
+  QuestionPack test;
   // srand((unsigned int)time(0));
 
-  // test.loadMockTest();
-  // test.startTest();
+  test.loadPractice(Topic::KHAI_NIEM_VA_QUY_TAC);
+  //test.loadMockTest();
+  test.startTest();
 
   // return 0;
 }
