@@ -2,22 +2,29 @@
 
 #include "random_generator.h"
 
-void ShuffleAnswer::handle(vector<Question>& data) {
+void ShuffleAnswer::handle(vector<Question>* data) {
   // Random::Init();
 
-  for (auto& i : data) {
-    int currPos = Random::getRange(0, 3);
-    int nextPos = Random::getRange(0, 3);
+  for (int i = 0; i < 7; i++) {
+    for (auto& j : data[i]) {
+      int currPos = Random::getRange(0, 3);
+      int nextPos = Random::getRange(0, 3);
+      while (currPos == nextPos || j.getAnswerText(currPos) == "" ||
+             j.getAnswerText(nextPos) == "") {
+        currPos = Random::getRange(0, 3);
+        nextPos = Random::getRange(0, 3);
+      }
 
-    // Swaping
-    string temp = i.getAnswerText(nextPos);
-    i.setAnswerText(i.getAnswerText(currPos), nextPos);
-    i.setAnswerText(temp, currPos);
+      // Swaping
+      string temp = j.getAnswerText(nextPos);
+      j.setAnswerText(j.getAnswerText(currPos), nextPos);
+      j.setAnswerText(temp, currPos);
 
-    // Also swaping the correct answer
-    if (i.checkAnswer(currPos))
-      i.setRightAnswer(nextPos);
-    else if (i.checkAnswer(nextPos))
-      i.setRightAnswer(currPos);
+      // Also swaping the correct answer
+      if (j.checkAnswer(currPos))
+        j.setRightAnswer(nextPos);
+      else if (j.checkAnswer(nextPos))
+        j.setRightAnswer(currPos);
+    }
   }
 }

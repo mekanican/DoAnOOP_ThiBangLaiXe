@@ -29,6 +29,7 @@ SOURCES += \
         Library/User/DatabaseUser.cpp \
         Library/User/User.cpp \
         Library/Utility/io.cpp \
+        Library/Utility/utility.cpp \
         backend.cpp \
         main.cpp
 
@@ -47,7 +48,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     Library/Filter/fifty_fifty.h \
-    Library/Filter/filter.h \
     Library/Filter/question_filter.h \
     Library/Filter/random_generator.h \
     Library/Filter/shuffle_answer.h \
@@ -65,6 +65,7 @@ HEADERS += \
     Library/Utility/constants.h \
     Library/Utility/io.h \
     Library/Utility/tinydir.h \
+    Library/Utility/utility.h \
     backend.h
 
 DISTFILES +=

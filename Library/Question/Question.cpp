@@ -46,6 +46,7 @@ void Question::setQuestionText(
 void Question::setAnswerText(string const& answerText,
                              int index)  // setter m_answerTexts
 {
+  if ((int)m_answerTexts.size() <= index || index < 0) return;
   this->m_answerTexts[index] = answerText;
 }
 

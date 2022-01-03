@@ -5,6 +5,7 @@ import QtQuick.Controls.Material 2.12
 import QtQuick.Dialogs 1.2
 Item {
     Text {
+        anchors.centerIn: parent
         text: backend.scoreboardReq()
     }
 }

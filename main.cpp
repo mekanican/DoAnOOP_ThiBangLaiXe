@@ -5,6 +5,7 @@
 #include "backend.h"
 
 int main(int argc, char *argv[]) {
+  srand(time(0));
   QGuiApplication app(argc, argv);
 
   qmlRegisterType<BackEnd>("io.qt.examples.backend", 1, 0, "BackEnd");

@@ -1,17 +1,24 @@
 #include "fifty_fifty.h"
 
-void FiftyFifty::handle(vector<Question>& data) {
-  for (auto& i : data) {
-    int correctAnswer = 0;
-    for (; correctAnswer < 4; correctAnswer++)
-      if (i.checkAnswer(correctAnswer)) break;
-    int unCorrectAnswer = 0;
-    for (; unCorrectAnswer < 4; unCorrectAnswer++)
-      if (!i.checkAnswer(unCorrectAnswer)) break;
+#include <algorithm>
 
-    for (int j = 0; j < 4; j++) {
-      if (j != correctAnswer && j != unCorrectAnswer) {
-        i.setAnswerText("", j);
+void FiftyFifty::handle(vector<Question>* data) {
+  for (int i = 0; i < 7; i++) {
+    for (auto& j : data[i]) {
+      int correctAnswer = 0;
+      int unCorrectAnswer = 0;
+
+      for (int x = 0; x < 4; x++) {
+        if (j.checkAnswer(x)) {
+          correctAnswer = x;
+        } else {
+          if (j.getAnswerText(x) != "") unCorrectAnswer = x;
+        }
+      }
+
+      for (int x = 0; x < 4; x++) {
+        if (x == correctAnswer || x == unCorrectAnswer) continue;
+        j.setAnswerText("", x);  // Delete
       }
     }
   }

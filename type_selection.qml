@@ -34,7 +34,11 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.A1Click()
+                    onClicked: {
+                        backend.A1Click()
+                        // stackView.pop();
+                        stackView.push("mode_selection.qml")
+                    }
                 }
                 Button {
                     Material.background: Material.LightBlue; width: 75; height: 75
@@ -44,7 +48,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.A2Click()
+                    onClicked: {
+                        backend.A2Click()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
                 Button {
                     Material.background: Material.LightBlue; width: 75; height: 75
@@ -54,7 +61,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.A3Click()
+                    onClicked: {
+                        backend.A3Click()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
                 Button {
                     Material.background: Material.LightBlue; width: 75; height: 75
@@ -64,7 +74,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.A4Click()
+                    onClicked: {
+                        backend.A4Click()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
             }
         }
@@ -84,7 +97,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.B1Click()
+                    onClicked: {
+                        backend.B1Click()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
                 Button {
                     Material.background: Material.Green; width: 75; height: 75
@@ -94,7 +110,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.B2Click()
+                    onClicked: {
+                        backend.B2Click()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
             }
         }
@@ -115,7 +134,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.CClick()
+                    onClicked: {
+                        backend.CClick()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
                 Button {
                     Material.background: Material.Orange; width: 75; height: 75
@@ -125,7 +147,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.DClick()
+                    onClicked: {
+                        backend.DClick()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
                 Button {
                     Material.background: Material.Orange; width: 75; height: 75
@@ -135,7 +160,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.EClick()
+                    onClicked: {
+                        backend.EClick()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
                 Button {
                     Material.background: Material.Orange; width: 75; height: 75
@@ -145,7 +173,10 @@ Item {
                         font.bold: true
                         font.pointSize: 20
                     }
-                    onClicked: backend.FClick()
+                    onClicked: {
+                        backend.FClick()
+                        stackView.push("mode_selection.qml")
+                    }
                 }
             }
         }

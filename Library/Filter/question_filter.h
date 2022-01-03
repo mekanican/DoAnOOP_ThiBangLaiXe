@@ -1,14 +1,24 @@
 #pragma once
-#include "filter.h"
 
-class QuestionFilter : public Filter {
+#include <vector>
+
+#include "../Question/Question.h"
+using std::vector;
+
+class QuestionFilter {
  private:
-  Filter *m_nextFilter;
+  QuestionFilter *m_nextFilter;
 
  public:
   QuestionFilter();
-  ~QuestionFilter();
-  void process(vector<Question>&);
-  Filter *setNext(Filter *) override;
-  void handle(vector<Question> &) override;
+  QuestionFilter(QuestionFilter const &);
+  virtual ~QuestionFilter();
+  void process(vector<Question> *);
+
+  static QuestionFilter *createChainPractice(bool fifty, bool sQues,
+                                             bool sAnsw);
+  static QuestionFilter *createChainTest();
+
+  virtual QuestionFilter *setNext(QuestionFilter *);
+  virtual void handle(vector<Question> *) = 0;
 };

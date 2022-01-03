@@ -50,6 +50,13 @@ ApplicationWindow {
             font.pixelSize: Qt.application.font.pixelSize * 1.6
             onClicked: {
                 if (stackView.depth > 1) {
+                    if (counter.visible == true) {
+                        counter.visible = false;
+                        temp.isDone = true;
+                        temp.correctAnswer = backend.getCorrect()
+                        console.log(temp.correctAnswer)
+                        backend.addToScoreboard(backend.getTime() - counter.value)
+                    }
                     stackView.pop()
                     if (stackView.depth == 1) {
                         title_.text = "Phần mềm hỗ trợ thi bằng lái xe"
@@ -122,6 +129,11 @@ ApplicationWindow {
 //        text: ""
 //        enabled: false
 //    }
-
+    Item {
+        id: temp
+        visible: false
+        property int correctAnswer : 0
+        property bool isDone : false
+    }
 
 }

@@ -3,5 +3,5 @@
 
 class FiftyFifty : public QuestionFilter {
  public:
-  void handle(vector<Question> &) override;
+  void handle(vector<Question>*) override;
 };

@@ -8,5 +8,6 @@
         <file>type_selection.qml</file>
         <file>mode_selection.qml</file>
         <file>scoreboard.qml</file>
+        <file>option_page.qml</file>
     </qresource>
 </RCC>

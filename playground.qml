@@ -6,14 +6,22 @@ import QtQuick.Dialogs 1.2
 
 Item {
 
+//    MessageDialog {
+//        id: messageDialog
+//        property int correct
+//        title: "Hết giờ!"
+//        text: "Bạn làm đúng được " + correct + " câu."
+//        onAccepted: {
+//            Qt.quit()
+//        }
+//    }
+
     MessageDialog {
-        id: messageDialog
-        property int correct
-        title: "Hết giờ!"
-        text: "Bạn làm đúng được " + correct + " câu."
-        onAccepted: {
-            Qt.quit()
-        }
+        Component.onCompleted: _tip = ""
+        id: tip
+        title: "Tip!"
+        property string _tip
+        text: _tip
     }
 
     Layout.fillWidth: true
@@ -31,8 +39,11 @@ Item {
                 if (counter.value === 0) {
 //                    q.text = "OUT OF TIME"
                     stop();
-                    messageDialog.correct = backend.getCorrect();
-                    messageDialog.open();
+                     temp.correctAnswer = backend.getCorrect();
+                    temp.isDone = true;
+                    counter.visible = false;
+                    stackView.pop();
+                    backend.addToScoreboard(backend.getTime())
                 }
 
             }
@@ -67,7 +78,10 @@ Item {
             text: "\u21E0"
             font.pointSize: 22
         }
-        onClicked: backend.clickPrevious();
+        onClicked: {
+            tip._tip = ""
+            backend.clickPrevious()
+        }
     }
     Button {
         id: goForward
@@ -79,7 +93,10 @@ Item {
             text: "\u21E2"
             font.pointSize: 22
         }
-        onClicked: backend.clickForward();
+        onClicked: {
+            tip._tip = ""
+            backend.clickForward()
+        }
     }
 
     Rectangle {
@@ -95,7 +112,10 @@ Item {
             anchors.left: parent.left
             anchors.topMargin: 12
             anchors.leftMargin: 12
-            Material.background: backend.a1 === 0 ? Material.LightBlue : Material.Red
+            Material.background: backend.a1 === 0 ? Material.LightBlue :
+                                                    (backend.a1 === -1 ? Material.Red :
+                                                                         Material.Green)
+
             Material.elevation: 6
             Text {
                 anchors.centerIn: parent;
@@ -109,6 +129,12 @@ Item {
             }
             onClicked: {
                 backend.c1Click();
+                if (tip._tip === "") {
+                    tip._tip = backend.getTip();
+                    if (tip._tip.length > 0) {
+                        tip.open()
+                    }
+                }
             }
         }
 
@@ -119,7 +145,9 @@ Item {
             anchors.right: parent.right
             anchors.rightMargin: 12
             anchors.topMargin: 12
-            Material.background: backend.a2 === 0 ? Material.LightBlue : Material.Red
+            Material.background: backend.a2 === 0 ? Material.LightBlue :
+                                                    (backend.a2 === -1 ? Material.Red
+                                                                       : Material.Green)
             Material.elevation: 6
             Text {
                 anchors.centerIn: parent
@@ -133,6 +161,12 @@ Item {
             }
             onClicked: {
                 backend.c2Click();
+                if (tip._tip === "") {
+                    tip._tip = backend.getTip();
+                    if (tip._tip.length > 0) {
+                        tip.open()
+                    }
+                }
             }
         }
 
@@ -143,7 +177,9 @@ Item {
             anchors.left: parent.left
             anchors.leftMargin: 12
             anchors.bottomMargin: 12
-            Material.background: backend.a3 === 0 ? Material.LightBlue : Material.Red
+            Material.background: backend.a3 === 0 ? Material.LightBlue :
+                                                    (backend.a3 === -1 ? Material.Red
+                                                                       : Material.Green)
             Material.elevation: 6
             Text {
                 anchors.centerIn: parent
@@ -157,6 +193,12 @@ Item {
             }
             onClicked: {
                 backend.c3Click();
+                if (tip._tip === "") {
+                    tip._tip = backend.getTip();
+                    if (tip._tip.length > 0) {
+                        tip.open()
+                    }
+                }
             }
         }
 
@@ -167,7 +209,9 @@ Item {
             anchors.right: parent.right
             anchors.rightMargin: 12
             anchors.bottomMargin: 12
-            Material.background: backend.a4 === 0 ? Material.LightBlue : Material.Red
+            Material.background: backend.a4 === 0 ? Material.LightBlue :
+                                                    (backend.a4 === -1 ? Material.Red
+                                                                       : Material.Green)
             Material.elevation: 6
             Text {
                 anchors.fill: parent
@@ -181,6 +225,12 @@ Item {
             }
             onClicked: {
                 backend.c4Click();
+                if (tip._tip === "") {
+                    tip._tip = backend.getTip();
+                    if (tip._tip.length > 0) {
+                        tip.open()
+                    }
+                }
             }
         }
     }

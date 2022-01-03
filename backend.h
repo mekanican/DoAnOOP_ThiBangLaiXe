@@ -6,6 +6,7 @@
 #include <QString>
 
 #include "Library/Question/QuestionPack.h"
+#include "Library/Scoreboard/Score.h"
 #include "Library/User/User.h"
 
 class BackEnd : public QObject {
@@ -96,6 +97,33 @@ class BackEnd : public QObject {
   // Scoreboard request
   QString scoreboardReq();
 
+  // Mode selection
+  void ExClick();
+  void PrClick();
+
+  // Practice signal
+  bool isPractice();
+
+  // Load done signal
+  bool isLoaded();
+
+  // Tip signal
+  QString getTip();
+
+  // Time getter
+  int getTime();
+
+  // Get correct answer;
+  int getCorrect();
+
+  // Begin signal
+  void StartClick(bool, bool, bool, bool, bool = false, bool = false,
+                  bool = false, bool = false, bool = false, bool = false,
+                  bool = false);
+
+  // Done signal, add to scoreboard
+  void addToScoreboard(int timeTaken);
+
  signals:
   // Login signal
   void userNameChanged();
@@ -140,6 +168,14 @@ class BackEnd : public QObject {
   User m_user;    // Current user;
   Type m_type;    // Current type;
   Topic m_topic;  // Current topic;
+  bool m_loaded;
+
+  // Mode checking
+  bool m_isPractice;
+  // Time setting
+  int m_time;
+  // Scoreboard
+  Scoreboard *m_sc;
 };
 
 #endif  // BACKEND_H

@@ -1,11 +1,12 @@
 #ifndef QUESTION_PACK_H_
 #define QUESTION_PACK_H_
+#include "../Filter/question_filter.h"
 #include "DatabaseQuestion.h"
 #include "Question.h"
 
 class QuestionPack {
  private:
-  DatabaseQuestion type_db;
+  DatabaseQuestion m_typeDB;
   Type m_type;
   vector<Question> m_questions;
   vector<int> m_savedAnswers;
@@ -16,7 +17,10 @@ class QuestionPack {
   QuestionPack();
   QuestionPack(Type type);
   QuestionPack(Type type, vector<Question> questions);
-  // Need processed input from other class
+  ~QuestionPack();
+
+  void changeType(Type);
+
   void goNext();
   void goPrev();
   Question& getCurrentQuestion();
@@ -26,7 +30,8 @@ class QuestionPack {
 
   int evaluateScore();
   void loadMockTest();
-  void startTest();
-  void loadPractice(Topic);
+  void loadPractice(bool, bool, bool, bool = true, bool = true, bool = true,
+                    bool = true, bool = true, bool = true,
+                    bool = true);  // Khuc nay UML ghi bool[] la duoc r
 };
 #endif

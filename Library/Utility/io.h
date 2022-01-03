@@ -4,7 +4,7 @@
 
 class QuestionLoader {
  public:
-  static Question Load(string file_path, bool is_required);
+  static Question Load(string file_path, bool is_required, int id);
 };
 
 #endif
