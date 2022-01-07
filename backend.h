@@ -1,7 +1,6 @@
 #ifndef BACKEND_H
 #define BACKEND_H
 
-#include <QDebug>
 #include <QObject>
 #include <QString>
 
@@ -123,6 +122,10 @@ class BackEnd : public QObject {
 
   // Done signal, add to scoreboard
   void addToScoreboard(int timeTaken);
+
+  // navigation between page scoreboard
+  void nextScoreboard();
+  void prevScoreboard();
 
  signals:
   // Login signal

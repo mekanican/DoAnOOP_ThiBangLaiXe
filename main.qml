@@ -54,7 +54,6 @@ ApplicationWindow {
                         counter.visible = false;
                         temp.isDone = true;
                         temp.correctAnswer = backend.getCorrect()
-                        console.log(temp.correctAnswer)
                         backend.addToScoreboard(backend.getTime() - counter.value)
                     }
                     stackView.pop()
@@ -103,11 +102,25 @@ ApplicationWindow {
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
                     title_.text = qsTr("Giới thiệu")
-                    stackView.push("scoreboard.qml") // change about.qml for testing
+                    stackView.push("about.qml")
                     layer1.visible = false
                 }
                 Material.background: Material.Teal
             }
+
+            Button {
+                height: 70
+                width: 100
+                text: "Bảng điểm"
+                anchors.horizontalCenter: parent.horizontalCenter
+                onClicked: {
+                    title_.text = qsTr("Bảng điểm")
+                    stackView.push("scoreboard.qml")
+                    layer1.visible = false
+                }
+                Material.background: Material.Teal
+            }
+
 
             Button {
                 height: 70

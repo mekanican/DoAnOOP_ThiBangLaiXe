@@ -1,6 +1,5 @@
 #include "backend.h"
 
-#include <QDebug>
 #include <QDir>
 
 #include "Library/Filter/topic_data.h"
@@ -202,83 +201,76 @@ void BackEnd::update() {
   emit pathChanged(m_path);
 }
 
-int x__ = 0;
-
 void BackEnd::clickForward() {
   m_qPack->goNext();
   update();
-  qDebug() << "Page: " << ++x__;
 }
 
 void BackEnd::clickPrevious() {
   m_qPack->goPrev();
   update();
-  qDebug() << "Page: " << --x__;
 }
 
 void BackEnd::A1Click() {
-  qDebug() << "A1";
   m_type = Type::A1;
   m_sc->setType(m_type);
 }
 void BackEnd::A2Click() {
-  qDebug() << "A2";
   m_type = Type::A2;
   m_sc->setType(m_type);
 }
 void BackEnd::A3Click() {
-  qDebug() << "A3";
   m_type = Type::A3;
   m_sc->setType(m_type);
 }
 void BackEnd::A4Click() {
-  qDebug() << "A4";
   m_type = Type::A4;
   m_sc->setType(m_type);
 }
 
 void BackEnd::B1Click() {
-  qDebug() << "B1";
   m_type = Type::B1;
   m_sc->setType(m_type);
 }
 void BackEnd::B2Click() {
-  qDebug() << "B2";
   m_type = Type::B2;
   m_sc->setType(m_type);
 }
 
 void BackEnd::CClick() {
-  qDebug() << "C";
   m_type = Type::C;
   m_sc->setType(m_type);
 }
 void BackEnd::DClick() {
-  qDebug() << "D";
   m_type = Type::D;
   m_sc->setType(m_type);
 }
 void BackEnd::EClick() {
-  qDebug() << "E";
   m_type = Type::E;
   m_sc->setType(m_type);
 }
 void BackEnd::FClick() {
-  qDebug() << "F";
   m_type = Type::F;
   m_sc->setType(m_type);
 }
 
 QString BackEnd::scoreboardReq() {
+  QString response;
+  QString separator = "///";
+  QString line_separator = "===";
+
   auto data = m_sc->getCurrentPage();
-  QString result = "Name\tScore\tTime\tDate\n";
   for (auto& x : data) {
-    result += QString::fromStdString(x.getUsername()) + "\t";
-    result += QString::number(x.getCorrectAnsw()) + "\t";
-    result += QString::fromStdString(x.getTime()) + "\t";
-    result += QString::fromStdString(x.getDate()) + "\n";
+    response += QString::fromStdString(x.getUsername());
+    response += separator;
+    response += QString::number(x.getCorrectAnsw());
+    response += separator;
+    response += QString::fromStdString(x.getTime());
+    response += separator;
+    response += QString::fromStdString(x.getDate());
+    response += line_separator;
   }
-  return result;
+  return response;
 }
 
 void BackEnd::ExClick() {
@@ -321,5 +313,8 @@ void BackEnd::addToScoreboard(int timeTaken) {
   m_sc->add(Score(m_realName.toStdString(), getCorrect(), to_string(timeTaken),
                   getCurrentDate()));
   m_sc->save();
-  qDebug() << "ADD 1";
 }
+
+void BackEnd::nextScoreboard() { m_sc->getNextPage(); }
+
+void BackEnd::prevScoreboard() { m_sc->getPreviousPage(); }
