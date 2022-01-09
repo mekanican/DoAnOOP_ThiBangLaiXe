@@ -1,0 +1,7 @@
+Xe nào được quyền đi trước trong trường hợp này?
+2
+Xe công an.
+Xe chữa cháy.
+1
+image/q498.png
+Xe ưu tiên theo mức độ thiệt hại: Xe chữa cháy ưu tiên hơn.

@@ -1,0 +1,9 @@
+Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng?
+4
+Xe công an, xe con, xe tải, xe khách.
+Xe con, xe khách và xe công an, xe tải.
+Xe công an, xe con, xe khách, xe tải.
+Xe con, xe tải, xe khách, xe công an.
+0
+image/q536.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe công an: Xe ưu tiên;<br/>2. Xe con: Đường ưu tiên, bên phải trống;<br/>3. Xe tải: Đường ưu tiên, bên phải vướng xe con nếu đi trước;<br/>4. Xe khách: Đường không ưu tiên.

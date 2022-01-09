@@ -1,0 +1,7 @@
+Để điều khiển cho xe đi thẳng, người lái xe phải làm gì là đúng quy tắc giao thông?
+2
+Nhường xe con rẽ trái trước.
+Đi thẳng không nhường.
+0
+image/q544.png
+Người lái xe phải nhường đường xe con rẽ trái trước vì xe con rẽ trái đã vào nơi giao nhau trước (đã qua vạch).

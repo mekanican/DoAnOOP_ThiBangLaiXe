@@ -357,7 +357,7 @@ int RealScoreboard::MaxPage() const {
 vector<Score> RealScoreboard::getPage(int page_number) {
   if (page_number > 0 && page_number <= this->MaxPage()) {
     m_currentPage = page_number;
-    int first_index = 5 * (page_number - 1), last_index = 5 * page_number - 1;
+    int first_index = kScoreboardPageSize * (page_number - 1), last_index = kScoreboardPageSize * page_number - 1;
 
     return this->getList(first_index, last_index);
   }

@@ -1,0 +1,8 @@
+Theo hướng mũi tên, gặp biển hướng đi phải theo đặt trước ngã tư, những hướng nào xe được phép đi?
+3
+Hướng 2 và 3.
+Hướng 1, 2 và 3.
+Hướng 1 và 3.
+0
+image/q514.png
+Biển số R.301g được đặt trước ngã ba, ngã tư. Các xe chỉ được phép đi thẳng hay rẽ trái ở khu vực sau mặt biển và được phép quay đầu xe để đi theo hướng ngược lại.<br/>Đáp án đúng là hướng 2 và hướng 3.

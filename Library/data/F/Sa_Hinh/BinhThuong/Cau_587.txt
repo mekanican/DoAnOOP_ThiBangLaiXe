@@ -1,0 +1,7 @@
+Xe nào được đi trước trong trường hợp này?
+2
+Xe con.
+Xe của bạn.
+1
+image/q588.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe của bạn trên đường ưu tiên (theo biển báo) nên được đi trước.

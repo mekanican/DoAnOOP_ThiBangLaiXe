@@ -1,0 +1,8 @@
+Biển nào cho phép quay đầu xe?
+3
+Biển 1
+Biển 2
+Cả 2 biển
+2
+image/q447.png
+Biển 1: I.409 “Chỗ quay xe” và Biển 2: I.410 “Khu vực quay xe” nên cả 2 biển đều cho phép quay đầu xe.

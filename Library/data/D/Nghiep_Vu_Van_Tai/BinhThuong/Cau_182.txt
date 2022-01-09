@@ -1,0 +1,8 @@
+Hàng siêu trường, siêu trọng được hiểu như thế nào là đúng?
+3
+Là hàng có kích thước vượt quá kích thước và trọng lượng của xe.
+Là hàng có kích thước hoặc trọng lượng vượt quá giới hạn quy định nhưng có thể tháo rời.
+Là hàng có kích thước hoặc trọng lượng vượt quá giới hạn quy định nhưng không thể tháo rời ra được.
+2
+
+Hàng siêu trường, siêu trọng không thể tháo rời.

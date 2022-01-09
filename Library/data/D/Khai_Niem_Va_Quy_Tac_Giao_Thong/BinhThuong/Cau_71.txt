@@ -1,0 +1,8 @@
+Biển báo hiệu có dạng hình tròn, viền đỏ, nền trắng, trên nền có hình vẽ hoặc chữ số, chữ viết màu đen là loại biển gì dưới đây?
+4
+Biển báo nguy hiểm.
+Biển báo cấm.
+Biển báo hiệu lệnh.
+Biển báo chỉ dẫn.
+1
+image/q72.png

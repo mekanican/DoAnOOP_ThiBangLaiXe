@@ -1,0 +1,9 @@
+Biển nào dưới đây báo hiệu hết cấm vượt?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 2 và 3.
+3
+image/q442.png
+Biển 1: DP.134 “Hết hạn chế tốc độ tối đa”; Biển 2: DP.135 “Hết tất cả các lệnh cấm”; Biển 3: DP.133 “Hết cấm vượt”;<br/>Nên đáp án đúng phải là Biển 2 và Biển 3.

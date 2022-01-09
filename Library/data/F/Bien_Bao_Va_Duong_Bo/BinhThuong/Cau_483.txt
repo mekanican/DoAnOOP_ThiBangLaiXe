@@ -1,0 +1,8 @@
+Vạch dưới đây có tác dụng gì?
+3
+Để xác định làn đường.
+Báo hiệu người lái xe chỉ được phép đi thẳng.
+Dùng để xác định khoảng cách giữa các phương tiện trên đường.
+2
+image/q484.png
+Vạch 7.8: Vạch xác định khoảng cách xe trên đường.

@@ -1,0 +1,8 @@
+Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được sử dụng ô khi trời mưa hay không?
+4
+Được sử dụng.
+Chỉ người ngồi sau được sử dụng.
+Không được sử dụng.
+Được sử dụng nếu không có áo mưa.
+2
+

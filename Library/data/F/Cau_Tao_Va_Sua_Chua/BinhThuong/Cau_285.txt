@@ -1,0 +1,8 @@
+Hãy nêu công dụng hệ thống truyền lực của ô tô?
+3
+Dùng để truyền mô men quay từ động cơ tới các bánh xe chủ động của ô tô.
+Dùng để thay đổi hướng chuyển động hoặc giữ cho ô tô chuyển động ổn định theo hướng xác định.
+Dùng để làm giảm tốc độ, dừng chuyển động của ô tô.
+0
+
+Hệ thống truyền lực truyền mô men quay từ động cơ tới bánh xe.

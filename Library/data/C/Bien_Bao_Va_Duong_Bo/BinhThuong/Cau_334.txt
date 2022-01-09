@@ -1,0 +1,8 @@
+Biển nào là biển “Cấm xe chở hàng nguy hiểm”?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+2
+image/q335.png
+Biển 1: P.106a “Cấm xe tải”; Biển 2: P.106b “Cấm xe tải có khối lượng chuyên chở lớn hơn 2.5 tấn”; P.106c: “Cấm xe chở hàng nguy hiểm”.

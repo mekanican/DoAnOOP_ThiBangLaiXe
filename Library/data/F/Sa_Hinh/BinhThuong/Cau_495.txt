@@ -1,0 +1,8 @@
+Xe nào phải nhường đường đi cuối cùng qua nơi giao nhau này?
+3
+Xe khách.
+Xe tải.
+Xe con.
+0
+image/q496.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>1. Xe con: Đường ưu tiên;<br/>2. Xe tải: Đường không ưu tiên, rẽ phải;<br/>3. Xe khách: Đường không ưu tiên, rẽ trái (Đáp án đúng).

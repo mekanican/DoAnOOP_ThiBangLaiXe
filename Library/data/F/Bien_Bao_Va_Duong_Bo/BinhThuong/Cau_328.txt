@@ -1,0 +1,8 @@
+Biển nào là biển “Cấm đi ngược chiều”?
+3
+Biển 1.
+Biển 2.
+Cả ba biển.
+1
+image/q329.png
+Biển 1: P.101 “Đường cấm”; Biển 2: P.102 “Cấm đi ngược chiều”; Biển 3: P.301a “Cấm đỗ xe”. Nên biển 2 là cấm đi ngược chiều.

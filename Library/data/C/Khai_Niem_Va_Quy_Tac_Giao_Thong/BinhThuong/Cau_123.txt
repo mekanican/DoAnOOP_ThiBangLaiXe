@@ -1,0 +1,7 @@
+Tốc độ tối đa cho phép đối với xe máy chuyên dùng, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự trên đường bộ (trừ đường cao tốc) không được vượt quá bao nhiêu km/h?
+3
+50 km/h.
+40 km/h.
+60 km/h.
+1
+

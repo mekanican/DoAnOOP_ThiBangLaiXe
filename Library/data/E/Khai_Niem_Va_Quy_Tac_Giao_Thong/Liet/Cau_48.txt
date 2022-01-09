@@ -1,0 +1,8 @@
+Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được bám, kéo hoặc đẩy các phương tiện khác không?
+4
+Được phép.
+Được bám trong trường hợp phương tiện của mình bị hỏng.
+Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.
+Không được phép.
+3
+

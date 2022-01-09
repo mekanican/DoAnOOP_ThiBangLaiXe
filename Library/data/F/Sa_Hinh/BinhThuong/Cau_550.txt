@@ -1,0 +1,9 @@
+Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?
+4
+Xe con và xe tải, xe của bạn.
+Xe của bạn, xe tải, xe con.
+Xe của bạn và xe con, xe tải.
+Xe của bạn, xe tải + xe con.
+2
+image/q551.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe bạn đang trên đường ưu tiên nên được đi trước.<br/>Xe con rẽ phải không giao nhau với xe bạn nên được đi đồng thời với xe bạn.<br/>Xe tải rẽ trái từ đường không ưu tiên phải nhường đi sau cùng.

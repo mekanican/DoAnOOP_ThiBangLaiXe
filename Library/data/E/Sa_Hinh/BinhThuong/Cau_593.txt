@@ -1,0 +1,8 @@
+Để điều khiển xe rẽ trái, bạn chọn hướng đi nào dưới đây?
+3
+Hướng 1.
+Hướng 2.
+Cả 02 hướng đều được.
+0
+image/q594.png
+Vạch kẻ đường nét đứt màu vàng, phân chia 2 chiều xe chạy. Do đó, hướng 2 sẽ đi bên trái đường 1 đoạn nên không được phép. Do đó, bạn chỉ được chọn theo hướng 1 để rẽ trái.

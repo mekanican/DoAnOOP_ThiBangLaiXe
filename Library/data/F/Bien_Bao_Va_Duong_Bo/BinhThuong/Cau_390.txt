@@ -1,0 +1,8 @@
+Biển nào báo hiệu “Đường giao nhau” của các tuyến đường cùng cấp?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+0
+image/q391.png
+Biển 1: W.205a “Đường giao nhau” cùng cấp; Biển 2: W.207a “Giao nhau với đường không ưu tiên”; Biển 3: W.208 “Giao nhau với đường ưu tiên”;

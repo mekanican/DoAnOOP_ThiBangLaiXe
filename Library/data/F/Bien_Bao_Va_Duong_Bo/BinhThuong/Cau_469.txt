@@ -1,0 +1,8 @@
+Biển này có ý nghĩa gì?
+4
+Bắt đầu đường cao tốc.
+Chỉ dẫn địa giới đường cao tốc, chiều dài đường cao tốc.
+Tên và ký hiệu đường cao tốc, tốc độ tối đa và tối thiểu khi di chuyển trên cao tốc.
+Cả ý 1 và ý 3.
+3
+image/q470.png

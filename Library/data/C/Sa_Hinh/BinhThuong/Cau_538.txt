@@ -1,0 +1,9 @@
+Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?
+4
+Cả ba hướng.
+Hướng 1 và 2.
+Hướng 1 và 3
+Hướng 2 và 3.
+2
+image/q539.png
+Hướng 2 có Biển số P.104 “Cấm mô tô”. Hướng 3 Biển số P.103a “Cấm ô tô” nhưng không cấm mô tô. Nên đáp án đúng là hướng 1 và hướng 3.

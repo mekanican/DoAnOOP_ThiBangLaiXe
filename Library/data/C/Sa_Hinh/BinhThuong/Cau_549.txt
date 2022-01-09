@@ -1,0 +1,8 @@
+Người lái xe có thể quay đầu xe như thế nào là đúng quy tắc giao thông?
+3
+Quay đầu theo hướng A.
+Quay đầu theo hướng B.
+Cấm quay đầu.
+0
+image/q550.png
+Trước mặt người lái xe có Biển số P.123a “Cấm rẽ trái” không cấm quay đầu. Tuy nhiên, hướng B quay đầu đè vạch liền nên vi phạm. Do đó, chỉ có hướng A quay đầu xe là câu trả lời đúng.

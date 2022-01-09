@@ -1,0 +1,9 @@
+Theo tín hiệu đèn, xe tải đi theo hướng nào là đúng quy tắc giao thông?
+4
+Hướng 2, 3, 4.
+Chỉ hướng 1.
+Hướng 1 và 2.
+Hướng 3 và 4.
+1
+image/q502.png
+Hướng 1 rẽ phải có tín hiệu đèn xanh nên được phép đi. Hướng đi thẳng đang có tín hiệu đèn đỏ do đó các hướng 2,3,4 không thể đi được. Câu trả lời đúng là chỉ có hướng 1.

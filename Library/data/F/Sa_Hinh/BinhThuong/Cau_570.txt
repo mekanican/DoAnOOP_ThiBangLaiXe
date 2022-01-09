@@ -1,0 +1,8 @@
+Xe của bạn được đi theo hướng nào trong trường hợp này?
+3
+Chuyển sang làn đường bên phải và rẽ phải.
+Dừng lại trước vạch dừng và rẽ phải khi đèn xanh.
+Dừng lại trước vạch dừng và đi thẳng hoặc rẽ trái khi đèn xanh.
+2
+image/q571.png
+Bạn phải dừng lại chờ đèn đỏ và làn đường bạn đang dừng xe chỉ được rẽ trái hoặc đi thẳng khi đèn xanh.

@@ -1,0 +1,9 @@
+Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?
+4
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+Cả ba biển.
+1
+image/q385.png
+Biển 1: W.207a “Giao nhau với đường không ưu tiên”;<br/>Biển 2: W.208 “Giao nhau với đường ưu tiên”;<br/>Biển 3: I.401 “Bắt đầu đường ưu tiên”. Nên Biển 1 và Biển 3 là đáp án đúng.

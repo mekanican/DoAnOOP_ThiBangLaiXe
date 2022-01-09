@@ -1,0 +1,9 @@
+Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?
+4
+Xe của bạn, xe tải, xe con.
+Xe con, xe tải, xe của bạn.
+Xe tải, xe của bạn, xe con.
+Xe của bạn, xe con, xe tải.
+3
+image/q584.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe của bạn: Đường ưu tiên; 2. Xe con: Đi không ưu tiên, đi thẳng; 3. Xe tải: Đường không ưu tiên, rẽ trái.

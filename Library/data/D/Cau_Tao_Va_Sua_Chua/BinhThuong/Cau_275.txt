@@ -1,0 +1,8 @@
+Âm lượng của còi điện lắp trên ô tô (đo ở độ cao 1,2 mét với khoảng cách 2 mét tính từ đầu xe) là bao nhiêu?
+3
+Không nhỏ hơn 90 dB (A), không lớn hơn 115 dB (A).
+Không nhỏ hơn 80 dB (A), không lớn hơn 105 dB (A).
+Không nhỏ hơn 70 dB (A), không lớn hơn 90 dB (A).
+0
+
+Âm lượng của còi là từ 90 dB đến 115 dB.

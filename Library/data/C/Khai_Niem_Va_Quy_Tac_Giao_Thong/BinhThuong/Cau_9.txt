@@ -1,0 +1,8 @@
+“Phương tiện tham gia giao thông đường bộ” gồm những loại nào?
+3
+Phương tiện giao thông cơ giới đường bộ.
+Phương tiện giao thông thô sơ đường bộ và xe máy chuyên dùng.
+Cả ý 1 và ý 2.
+2
+
+Tất cả các loại phương tiện.

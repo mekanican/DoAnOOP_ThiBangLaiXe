@@ -1,0 +1,8 @@
+Biển báo hiệu hình tròn có nền xanh lam có hình vẽ màu trắng là loại biển gì dưới đây?
+4
+Biển báo nguy hiểm.
+Biển báo cấm.
+Biển báo hiệu lệnh phải thi hành.
+Biển báo chỉ dẫn.
+2
+image/q74.png

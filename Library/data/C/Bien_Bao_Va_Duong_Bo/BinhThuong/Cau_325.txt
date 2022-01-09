@@ -1,0 +1,8 @@
+Biển nào cho phép xe rẽ trái?
+3
+Biển 1.
+Biển 2.
+Không biển nào.
+1
+image/q326.png
+Biển 1: P.123a “Cấm rẽ trái” không cấm quay đầu xe; Biển 2: I.410 “Khu vực quay xe”. Nên Biển 2 cho phép quay xe là đáp án đúng.

@@ -1,0 +1,7 @@
+Trường hợp này xe nào được quyền đi trước?
+2
+Mô tô.
+Xe con.
+1
+image/q492.png
+Xe con được đi trước vì mô tô có biển STOP trước mặt.

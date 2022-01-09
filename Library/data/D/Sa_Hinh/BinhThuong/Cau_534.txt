@@ -1,0 +1,8 @@
+Những hướng nào ô tô tải được phép đi?
+3
+Cả bốn hướng.
+Chỉ hướng 1 và 2.
+Trừ hướng 4.
+2
+image/q535.png
+Biển số P.102 “Cấm đi ngược chiều” ở hướng 4 nên hướng này không được phép đi.

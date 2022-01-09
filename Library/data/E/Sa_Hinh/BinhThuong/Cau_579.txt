@@ -1,0 +1,8 @@
+Phía trước có một xe màu xanh đang vượt xe màu vàng trên làn đường của bạn, bạn xử lý như thế nào trong trường hợp này?
+3
+Phanh xe giảm tốc độ và đi sát lề đường bên phải.
+Bấm còi, nháy đèn báo hiệu, giữ nguyên tốc độ và đi tiếp.
+Phanh xe giảm tốc độ và đi sát lề đường bên trái.
+0
+image/q580.png
+Vì xe màu xanh đang trên làn đường của bạn, để đảm bảo an toàn, bạn cần phanh xe giảm tốc độ và đi sát lề đường bên phải.

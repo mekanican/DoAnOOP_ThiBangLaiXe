@@ -1,0 +1,8 @@
+Hãy nêu công dụng ly hợp (côn) của ô tô?
+3
+Dùng để truyền mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình ô tô chuyển động.
+Dùng để truyền hoặc ngắt truyền động từ động cơ đến hộp số của ô tô.
+Dùng để truyền truyền động từ hộp số đến bánh xe chủ động của ô tô.
+1
+
+Ly hợp (côn) truyền hoặc ngắt truyền động từ động cơ đến hộp số.

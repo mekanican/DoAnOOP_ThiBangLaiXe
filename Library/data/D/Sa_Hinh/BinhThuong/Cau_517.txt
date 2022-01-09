@@ -1,0 +1,7 @@
+Xe kéo nhau trong trường hợp này đúng quy định không?
+2
+Không đúng.
+Đúng.
+0
+image/q518.png
+Xe đầu kéo (xe containter) đã kéo rơmoóc, sơmi rơmoóc không được phép kéo thêm rơmoóc hoặc xe khác, vật khác.

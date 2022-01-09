@@ -1,0 +1,8 @@
+Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?
+3
+Xe khách, xe tải, xe con.
+Xe con và xe tải, xe khách.
+Xe tải, xe khách, xe con.
+2
+image/q533.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải: Rẽ phải; 2. Xe khách: Đi thẳng; 3. Xe con: Rẽ trái.

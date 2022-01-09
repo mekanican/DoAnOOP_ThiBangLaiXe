@@ -1,0 +1,8 @@
+Vạch dưới đây có ý nghĩa gì?
+3
+Báo cho người điều khiển không được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.
+Báo hiệu sắp đến chỗ có bố trí vạch đi bộ qua đường.
+Dùng để xác định khoảng cách giữa các phương tiện trên đường.
+1
+image/q485.png
+Vạch 7.6: Vạch chỉ dẫn sắp đến chỗ có bố trí vạch đi bộ qua đường.

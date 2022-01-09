@@ -1,0 +1,9 @@
+Biển nào báo hiệu “Giao nhau với đường không ưu tiên”?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 2 và 3.
+0
+image/q386.png
+Biển 1: W.207a “Giao nhau với đường không ưu tiên”;<br/>Biển 2: W.208 “Giao nhau với đường ưu tiên”;<br/>Biển 3: I.401 “Bắt đầu đường ưu tiên”.

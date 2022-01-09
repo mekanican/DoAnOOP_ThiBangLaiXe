@@ -1,0 +1,9 @@
+Những hướng nào ô tô tải được phép đi?
+4
+Chỉ hướng 1.
+Hướng 1 và 4.
+Hướng 1 và 5.
+Hướng 1, 4 và 5.
+2
+image/q523.png
+Hướng 2,3,4 bị cấm do có biển cấm xe ô tô đi vào.<br/>Hướng 1 và 5 xe tải đi được bình thường.

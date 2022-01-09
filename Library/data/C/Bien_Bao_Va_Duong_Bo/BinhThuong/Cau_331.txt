@@ -1,0 +1,9 @@
+Gặp biển nào người lái xe không được đỗ xe vào ngày lẻ?
+4
+Biển 1 và 2.
+Biển 2.
+Biển 2 và 3.
+Biển 3.
+0
+image/q332.png
+Biển 1: P.301a “Cấm đỗ xe” bất kỳ ngày nào; Biển 2: P301b “Cấm đỗ xe” vào ngày lẻ; Biển 3: P301c “Cấm đỗ xe” vào ngày chẵn. Nên biển 1 và biển 2 là cấm đỗ xe ngày lẻ.

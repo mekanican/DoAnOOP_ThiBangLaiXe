@@ -1,0 +1,8 @@
+Vạch dưới đây có ý nghĩa gì?
+3
+Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.
+Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.
+Dùng để xác định vị trí giữa các phương tiện trên đường.
+0
+image/q486.png
+Vạch 9.2: Vạch quy định vị trí dừng đỗ của phương tiện giao thông công cộng trên đường.

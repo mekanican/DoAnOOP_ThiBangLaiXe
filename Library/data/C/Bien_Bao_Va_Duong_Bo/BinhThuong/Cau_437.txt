@@ -1,0 +1,8 @@
+Biển nào báo hiệu “Đường một chiều”?
+3
+Biển 1.
+Biển 2.
+Cả hai biển.
+1
+image/q438.png
+Biển 1: R.301a “Hướng đi phải theo” chỉ được đi thẳng đặt trước ngã ba, ngã tư;<br/>Biển 2: I.407a “Đường một chiều”;<br/>Nên Biển 2 là đáp án đúng.

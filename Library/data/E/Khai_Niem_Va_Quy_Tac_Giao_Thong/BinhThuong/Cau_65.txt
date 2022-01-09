@@ -1,0 +1,8 @@
+Người có giấy phép lái xe hạng B2 được điều khiển loại xe nào?
+3
+Xe ô tô chở người trên 9 chỗ ngồi; xe ô tô tải; máy kéo có trọng tải trên 3.500 kg.
+Xe ô tô chở người đến 9 chỗ ngồi; xe ô tô tải; máy kéo có trọng tải dưới 3.500 kg.
+Xe ô tô chở người từ 10 đến 30 chỗ ngồi; xe ô tô tải; máy kéo có trọng tải trên 3.500 kg.
+1
+
+B2 đến 9 chỗ ngồi, xe dưới 3.500 kg.

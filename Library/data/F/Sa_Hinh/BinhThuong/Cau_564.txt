@@ -1,0 +1,9 @@
+Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?
+4
+Xe tải, mô tô.
+Xe khách, mô tô.
+Xe tải, xe con.
+Mô tô, xe con.
+1
+image/q565.png
+Xe con và xe tải: Vi phạm tín hiệu đèn;<br/>Xe khách và xe mô tô: Đúng làn đường và đúng tín hiệu đèn.

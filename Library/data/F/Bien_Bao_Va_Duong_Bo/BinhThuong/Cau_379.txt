@@ -1,0 +1,8 @@
+Biển nào báo hiệu “Cửa chui”?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+1
+image/q380.png
+Biển 1: W.237 “Cầu vòng”; Biển 2: W.218 “Cửa chui”; Biển 3: W.240 “Đường hầm”. Đáp án đúng là đáp án 2.

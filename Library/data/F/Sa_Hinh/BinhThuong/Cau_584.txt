@@ -1,0 +1,7 @@
+Xe nào phải nhường đường trong trường hợp này?
+2
+Xe của bạn.
+Xe con.
+0
+image/q585.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe con: Đường ưu tiên; 2. Xe của bạn: Đường không ưu tiên nên phải nhường đường.

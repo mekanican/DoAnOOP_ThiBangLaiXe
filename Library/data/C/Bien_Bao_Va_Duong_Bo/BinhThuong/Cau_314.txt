@@ -1,0 +1,7 @@
+Biển nào cấm xe tải vượt?
+3
+Biển 1.
+Biển 2.
+Cả hai biển.
+2
+image/q315.png

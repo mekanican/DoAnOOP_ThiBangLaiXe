@@ -1,0 +1,8 @@
+Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?
+3
+Xe tải, xe con.
+Xe khách, xe con.
+Xe khách, xe tải.
+2
+image/q561.png
+Xe con và xe mô tô đang ở đúng làn đường, đúng hướng rẽ với tín hiệu đèn xanh nên đúng quy tắc giao thông.<br/>Xe khách và xe tải đang ở sai làn đường so với hướng rẽ nên đều vi phạm.

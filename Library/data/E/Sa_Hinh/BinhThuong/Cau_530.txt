@@ -1,0 +1,8 @@
+Xe nào vượt đúng quy tắc giao thông?
+3
+Xe tải.
+Cả hai xe.
+Xe con.
+2
+image/q531.png
+Theo hướng xe tải, vượt xe khách đè vạch liền nên vi phạm.<br/> Theo hướng xe con, xe con vượt xe tải đè vạch đứt nên không vi phạm quy tắc giao thông là đáp án đúng.

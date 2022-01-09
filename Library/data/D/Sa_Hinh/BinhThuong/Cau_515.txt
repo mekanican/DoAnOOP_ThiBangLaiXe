@@ -1,0 +1,7 @@
+Xe nào phải nhường đường trong trường hợp này?
+2
+Xe khách.
+Xe tải.
+0
+image/q516.png
+Phía trước xe tải có biển báo được ưu tiên qua đường hẹp nên được đi trước.<br/>Hoặc phía trước xe khách có biển báo nhường cho xe ngược chiều qua đường hẹp.

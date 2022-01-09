@@ -1,0 +1,7 @@
+Biển nào báo hiệu “Hướng đi thẳng phải theo”?
+2
+Biển 1.
+Biển 2.
+0
+image/q437.png
+Biển 1: R.301a “Hướng đi phải theo” chỉ được đi thẳng đặt trước ngã ba, ngã tư;<br/>Biển 2: I.407a “Đường một chiều” không liên quan hướng đi phải theo.<br/>Nên Biển 1 là đáp án đúng.

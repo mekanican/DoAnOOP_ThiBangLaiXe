@@ -1,0 +1,9 @@
+Trong các biển dưới đây biển nào là biển “Hết tốc độ tối thiểu”?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Cả ba biển
+2
+image/q441.png
+Biển 1: DP134 “Hết hạn chế tốc độ tối đa”; Biển 2: DP135 “Hết mọi lệnh cấm”; Biển 3: R307 “Hết hạn chế tốc độ tối thiểu”. Nên Biển 3 là biển “Hết hạn chế tốc độ tối thiểu”.<br/>Chú ý câu này hỏi ý nghĩa của biển.

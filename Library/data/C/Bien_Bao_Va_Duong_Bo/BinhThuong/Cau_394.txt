@@ -1,0 +1,9 @@
+Biển nào chỉ dẫn “Được ưu tiên qua đường hẹp”?
+4
+Biển 1.
+Biển 2
+Biển 3.
+Biển 2 và 3.
+2
+image/q395.png
+Biển 1: W.204 “Đường hai chiều”;<br/>Biển 2: P.132 “Nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp”;<br/>Biển 3: I.406 “Được ưu tiên qua đường hẹp”.

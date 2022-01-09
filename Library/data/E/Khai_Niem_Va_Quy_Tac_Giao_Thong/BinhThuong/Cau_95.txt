@@ -1,0 +1,7 @@
+Bạn đang lái xe trên đường hẹp, xuống dốc và gặp một xe đang đi lên dốc, bạn cần làm gì?
+3
+Tiếp tục đi vì xe lên dốc phải nhường đường cho mình.
+Nhường đường cho xe lên dốc.
+Chỉ nhường đường khi xe lên dốc nháy đèn.
+1
+

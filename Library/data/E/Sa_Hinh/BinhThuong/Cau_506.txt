@@ -1,0 +1,8 @@
+Theo hướng mũi tên, những hướng nào xe gắn máy đi được?
+3
+Cả ba hướng.
+Chỉ hướng 1 và 3.
+Chỉ hướng 1.
+0
+image/q507.png
+Bạn lưu ý câu hỏi này hỏi về hướng đi của xe <b>GẮN MÁY</b>. Hướng 1 và 3 chắc chắn là đi được rồi.<br/>Với hướng 2, biển báo cấm mô tô đi vào chỉ có tác dụng với xe MÔ TÔ nên xe gắn máy không có hiệu lực. Do đó vẫn đi vào bình thường.

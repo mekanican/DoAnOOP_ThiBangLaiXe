@@ -1,0 +1,8 @@
+Vạch mũi tên chỉ hướng trên mặt đường nào dưới đây cho phép xe chỉ được đi thẳng và rẽ phải?
+4
+Vạch 1.
+Vạch 2 và 3.
+Vạch 3.
+Vạch 1 và 2.
+2
+image/q477.png

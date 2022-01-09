@@ -1,0 +1,7 @@
+Trên đường bộ, người lái xe ô tô có được phép dừng xe, đỗ xe song song với một xe khác đang dừng, đỗ hay không?
+3
+Được phép.
+Không được phép.
+Chỉ được phép dừng, đỗ khi đường vắng.
+1
+

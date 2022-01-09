@@ -1,0 +1,9 @@
+Người lái xe điều khiển xe chạy theo hướng nào là đúng quy tắc giao thông?
+4
+Chỉ hướng 2.
+Hướng 1 và 2.
+Tất cả các hướng trừ hướng 3.
+Tất cả các hướng trừ hướng 4.
+1
+image/q545.png
+Hướng 4: Biển số P.123b “Cấm rẽ phải”; Hướng 3: Biển số P.102 “Cấm đi ngược chiều”;<br/>Nên chỉ có thể đi theo hướng 1 và hướng 2 là câu trả lời đúng.
