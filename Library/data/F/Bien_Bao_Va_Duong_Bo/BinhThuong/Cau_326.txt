@@ -1,0 +1,8 @@
+Biển nào xe quay đầu không bị cấm?
+3
+Biển 1.
+Biển 2.
+Cả 2 biển.
+2
+image/q327.png
+Biển 1: P.123a “Cấm rẽ trái” không cấm quay đầu xe; Biển 2: I.410 “Khu vực quay xe”. Nên cả 2 biển cho phép quay đầu xe là đáp án đúng.

@@ -1,0 +1,8 @@
+Xe nào phải dừng lại trong trường hợp này?
+3
+Xe con.
+Xe của bạn.
+Cả hai xe.
+0
+image/q569.png
+Xe con dừng lại vì phía trước là tín hiệu đèn đỏ. Xe của bạn được đi vì rẽ phải trước đèn đỏ nên không vi phạm.

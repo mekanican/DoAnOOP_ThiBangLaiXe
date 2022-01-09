@@ -1,0 +1,8 @@
+Biển nào dưới đây là biển “Cầu hẹp”?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+1
+image/q405.png
+Biển 1: W.213 “Cầu tạm”; Biển 2: W.212 “Cầu hẹp”; Biển 3: W.214 “Cầu xoay - cầu cất”.

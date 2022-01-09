@@ -1,0 +1,9 @@
+Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?
+4
+Xe khách, xe tải, mô tô, xe con.
+Xe con, xe khách, xe tải, mô tô.
+Mô tô, xe tải, xe khách, xe con.
+Mô tô, xe tải, xe con, xe khách.
+2
+image/q504.png
+Giao nhau cùng cấp có vòng xuyến: Chưa vào vòng xuyến thì ưu tiên xe bên phải; đã vào vòng xuyến ưu tiên xe từ bên trái tới.<br/>Toàn bộ các xe chưa vào phòng xuyến nên ưu tiên xe bên phải.<br/>Thứ tự sẽ là Mô tô, xe tải, xe khách, xe con.

@@ -1,0 +1,8 @@
+Xe nào phải nhường đường là đúng quy tắc giao thông?
+3
+Xe tải.
+Xe khách.
+Xe con.
+1
+image/q554.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải đi thẳng không phải nhường đường vì không vướng xe nào cả; 2. Xe con: Rẽ phải; 3. Xe khách: Đi thẳng nên phải nhường xe con là câu trả lời đúng.

@@ -1,0 +1,9 @@
+Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?
+4
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+Cả ba biển.
+1
+image/q377.png
+Biển 1: W.210 “Giao nhau với đường sắt có rào chắn”; Biển 2: W.234 “Giao nhau với đường hai chiều”; Biển 3: W.242a “Nơi đường sắt giao vuông góc với đường bộ”.

@@ -1,0 +1,8 @@
+Theo tín hiệu đèn, xe nào được quyền đi là đúng quy tắc giao thông?
+3
+Xe khách, mô tô.
+Xe con, xe tải.
+Xe tải, mô tô.
+1
+image/q500.png
+Xe con và xe tải đang ở trên làn đường có tín hiệu đèn xanh nên được phép đi.

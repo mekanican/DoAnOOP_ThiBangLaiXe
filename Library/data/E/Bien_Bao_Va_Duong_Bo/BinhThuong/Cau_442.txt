@@ -1,0 +1,9 @@
+Trong các biển dưới đây biển nào là biển “Hết mọi lệnh cấm”?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Cả ba biển
+1
+image/q443.png
+Biển 1: DP.134 “Hết hạn chế tốc độ tối đa”; Biển 2: DP.135 “Hết tất cả các lệnh cấm”; Biển 3: R.307 “Hết hạn chế tốc độ tối thiểu”.

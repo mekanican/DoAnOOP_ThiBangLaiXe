@@ -1,0 +1,9 @@
+Hiệu lực của biển “Tốc độ tối đa cho phép” hết tác dụng khi gặp biển nào dưới đây?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 1 và 2.
+3
+image/q440.png
+Biển 1: DP134 “Hết hạn chế tốc độ tối đa”; Biển 2: DP135 “Hết mọi lệnh cấm”; Biển 3: R307 “Hết hạn chế tốc độ tối thiểu”. Nên Biển 1 và Biển 2 là đều hết hạn chế tốc độ tối đa.<br/>Chú ý câu hỏi các biển hết hạn chế, không phải ý nghĩa của biển.

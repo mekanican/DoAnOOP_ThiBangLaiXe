@@ -1,0 +1,7 @@
+Biển nào đặt trên đường chính trước khi đến nơi đường giao nhau để rẽ vào đường cụt?
+3
+Biển 1 và 2.
+Cả ba biển.
+Không biển nào.
+0
+image/q453.png

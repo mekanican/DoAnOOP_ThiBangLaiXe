@@ -1,0 +1,9 @@
+Theo hướng mũi tên, những hướng nào ô tô không được phép đi?
+4
+Hướng 1 và 2.
+Hướng 3.
+Hướng 1 và 4.
+Hướng 2 và 3.
+1
+image/q512.png
+Biển P.123a “Cấm rẽ trái” không cấm quay đầu xe nên chỉ có hướng 3 là hướng ô tô không được phép đi.

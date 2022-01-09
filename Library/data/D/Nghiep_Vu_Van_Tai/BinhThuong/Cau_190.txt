@@ -1,0 +1,7 @@
+Hình nào dưới đây đòi hỏi hàng phải xếp theo hướng thẳng đứng?
+3
+Hình 1.
+Hình 2.
+Hình 3.
+2
+image/q191.png

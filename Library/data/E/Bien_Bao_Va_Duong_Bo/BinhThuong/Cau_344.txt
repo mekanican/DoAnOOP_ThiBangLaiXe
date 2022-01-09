@@ -1,0 +1,7 @@
+Khi gặp biển 1, xe ô tô tải có được đi vào không?
+2
+Được đi vào.
+Không được đi vào.
+0
+image/q345.png
+Biển 1: P.108 “Cấm ô tô kéo moóc” không áp dụng với xe ô tô tải (không kéo rơ moóc).

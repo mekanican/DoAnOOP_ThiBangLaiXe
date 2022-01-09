@@ -1,0 +1,8 @@
+Biển nào cấm ô tô rẽ trái?
+3
+Biển 1.
+Biển 2.
+Cả hai biển.
+2
+image/q320.png
+Biển 1: 123a “Cấm rẽ trái”; Biển 2: 124e “Cấm ô tô rẽ trái và quay xe” nên cả 2 biển đều cấm rẽ trái.

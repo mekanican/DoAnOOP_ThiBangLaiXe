@@ -1,0 +1,7 @@
+Trong trường hợp này xe nào được quyền đi trước?
+2
+Xe công an.
+Xe quân sự.
+1
+image/q501.png
+Xe ưu tiên cùng cấp nên áp dụng thứ tự đường cùng cấp: Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe quân sự được ưu tiên trước do bên phải trống.

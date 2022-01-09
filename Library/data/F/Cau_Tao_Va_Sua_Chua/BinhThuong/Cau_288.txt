@@ -1,0 +1,8 @@
+Hãy nêu công dụng hệ thống lái của ô tô?
+3
+Dùng để thay đổi mô men từ động cơ tới các bánh xe chủ động khi ô tô chuyển động theo hướng xác định.
+Dùng để thay đổi mô men giữa các trục vuông góc nhau khi ô tô chuyển động theo hướng xác định.
+Dùng để thay đổi hướng chuyển động hoặc giữ cho ô tô chuyển động ổn định theo hướng xác định.
+2
+
+Hệ thống lái thay đổi hướng.

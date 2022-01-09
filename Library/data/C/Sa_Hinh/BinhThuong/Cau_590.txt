@@ -1,0 +1,7 @@
+Xe nào được đi trước trong trường hợp này?
+2
+Xe tải.
+Xe của bạn.
+0
+image/q591.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải: Đi thẳng; 2. Xe của bạn: Rẽ trái.

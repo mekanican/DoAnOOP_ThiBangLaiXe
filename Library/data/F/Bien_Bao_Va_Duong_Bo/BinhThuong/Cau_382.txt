@@ -1,0 +1,8 @@
+Các biển này có ý nghĩa gì?
+3
+Nơi đường sắt giao nhau với đường bộ.
+Nơi đường sắt giao vuông góc với đường bộ.
+Để báo trước sắp đến vị trí đường sắt giao không vuông góc với đường bộ, không có người gác và không có rào chắn.
+2
+image/q383.png
+Ba biển này là 243a, a43b và 243c Nơi giao nhau không vuông góc với đường sắt, không có người gác và không có rào chắn với đường sắt.

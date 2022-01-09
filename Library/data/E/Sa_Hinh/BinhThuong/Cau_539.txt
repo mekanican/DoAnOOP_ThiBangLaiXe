@@ -1,0 +1,8 @@
+Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?
+3
+Xe công an, xe quân sự, xe con + mô tô.
+Xe quân sự, xe công an, xe con + mô tô.
+Xe mô tô + xe con, xe quân sự, xe công an.
+1
+image/q540.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe quân sự: Xe ưu tiên cùng cấp xe công an nhưng đi thẳng;<br/>2. Xe công an: Xe ưu tiên; rẽ trái;<br/>3. Xe con và xe mô tô: Cùng đi thẳng.

@@ -1,0 +1,7 @@
+Theo hướng mũi tên, hướng nào xe không được phép đi?
+2
+Hướng 2 và 5.
+Chỉ hướng 1.
+1
+image/q511.png
+Hướng 1 có biển cấm ô tô nên xe ô tô đương nhiên không được phép đi vào rồi.

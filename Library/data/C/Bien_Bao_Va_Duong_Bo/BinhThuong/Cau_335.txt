@@ -1,0 +1,8 @@
+Gặp biển nào xe xích lô được phép đi vào?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 1 và 2.
+3
+image/q336.png

@@ -1,0 +1,7 @@
+Thế nào là động cơ 4 kỳ?
+2
+Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 2 (hai) hành trình, trong đó có một lần sinh công.
+Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 4 (bốn) hành trình, trong đó có một lần sinh công.
+1
+
+Động cơ 4 kỳ thì pít tông thực hiện 4 hành trình.

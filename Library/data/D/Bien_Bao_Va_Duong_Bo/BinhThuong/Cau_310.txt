@@ -1,0 +1,8 @@
+Khi gặp biển nào thì xe mô tô hai bánh được đi vào?
+4
+Không biển nào.
+Biển 1 và 2.
+Biển 2 và 3.
+Cả ba biển.
+2
+image/q311.png

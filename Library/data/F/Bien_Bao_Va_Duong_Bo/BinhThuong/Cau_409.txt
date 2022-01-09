@@ -1,0 +1,8 @@
+Biển nào sau đây là biển “Đường trơn”?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+1
+image/q410.png
+Biển 1: W201c “Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái”; Biển 2: W.222a “Đường trơn”; Biển 3: W217 “Bến phà”.

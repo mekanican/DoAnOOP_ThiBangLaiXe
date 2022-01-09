@@ -1,0 +1,8 @@
+Biển nào sau đây là biển “Lề đường nguy hiểm”?
+3
+Biển 1.
+Biển 2
+Biển 3.
+1
+image/q411.png
+Biển 1: W.215b “Kè, vực sâu bên đường phía bên trái”; Biển 2: W.222b “Lề đường nguy hiểm”; Biển 3: W201c “”Chỗ ngoặt nguy hiểm có nguy cơ lật xe”.

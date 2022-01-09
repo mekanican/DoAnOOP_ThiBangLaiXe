@@ -1,0 +1,9 @@
+Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 1 và 3.
+0
+image/q379.png
+Biển 1: Biển 211a Giao nhau với đường sắt không có rào chắn.<br/>Biển 2: Biển 208 Giao nhau với đường ưu tiên.<br/>Biển 3: Biển 211b Giao nhau với tàu điện.

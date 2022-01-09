@@ -1,0 +1,7 @@
+Những trường hợp nào ghi ở dưới đây không được đi vào đường cao tốc trừ người, phương tiện, thiết bị phục vụ cho việc quản lý, bảo trì đường cao tốc?
+3
+Người đi bộ, xe thô sơ, xe gắn máy, xe mô tô và máy kéo; xe máy chuyên dùng có tốc độ thiết kế nhỏ hơn 70km/h.
+Xe mô tô và xe máy chuyên dùng có tốc độ thiết kế lớn hơn 70km/h.
+Người đi bộ, xe thô sơ, xe gắn máy và xe ô tô.
+0
+

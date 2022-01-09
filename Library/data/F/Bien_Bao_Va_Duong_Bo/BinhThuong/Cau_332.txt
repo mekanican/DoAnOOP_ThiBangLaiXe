@@ -1,0 +1,8 @@
+Khi gặp biển nào xe ưu tiên theo luật định vẫn phải dừng lại?
+3
+Biển 1.
+Biển 2.
+Cả ba biển.
+1
+image/q333.png
+Biển 1: P.101 “Đường cấm” không cấm xe ưu tiên;<br/>Biển 2: R.122 “Dừng lại” áp dụng với cả xe ưu tiên;<br/>Biển 3: P.102 “Cấm đi ngược chiều” không áp dụng với xe ưu tiên;<br/>Nên Biển 2 là đáp án đúng, áp dụng với cả xe ưu tiên.

@@ -1,0 +1,8 @@
+Biển nào chỉ dẫn tên đường trên các tuyến đường đối ngoại?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 1 và 2.
+2
+image/q448.png

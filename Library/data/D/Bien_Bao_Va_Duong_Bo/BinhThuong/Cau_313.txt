@@ -1,0 +1,9 @@
+Biển nào cấm ô tô tải vượt?
+4
+Biển 1.
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+3
+image/q314.png
+Biển 1: DP.133 “Hết cấm vượt”; Biển 2: P.125 “Cấm vượt”; Biển 3: P.126 “Cấm ô tô tải vượt”.

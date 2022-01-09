@@ -1,0 +1,8 @@
+Tuổi tối đa của người lái xe ô tô chở người trên 30 chỗ ngồi (hạng E) là bao nhiêu tuổi?
+4
+55 tuổi đối với nam và 50 tuổi đối với nữ.
+55 tuổi đối với nam và nữ.
+60 tuổi đối với nam và 55 tuổi đối với nữ.
+45 tuổi đối với nam và 40 tuổi đối với nữ.
+0
+

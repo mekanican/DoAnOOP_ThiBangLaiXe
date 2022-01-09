@@ -1,0 +1,8 @@
+Trong tình huống dưới đây, xe đầu kéo kéo rơ moóc (xe container) đang rẽ phải, xe con màu xanh đi như thế nào để đảm bảo an toàn?
+3
+Vượt về phía bên phải để đi tiếp.
+Giảm tốc độ chờ xe đầu kéo rẽ phải, rồi tiếp tục đi.
+Vượt về phía bên trái để đi tiếp.
+1
+image/q600.png
+Giảm tốc độ chờ xe đầu kéo rẽ phải rồi mới tiếp tục đi.

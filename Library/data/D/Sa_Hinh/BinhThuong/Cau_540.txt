@@ -1,0 +1,7 @@
+Xe nào phải nhường đường là đúng quy tắc giao thông?
+2
+Xe A.
+Xe B.
+0
+image/q541.png
+Xe xuống dốc A phải nhường đường cho xe đang lên dốc B.

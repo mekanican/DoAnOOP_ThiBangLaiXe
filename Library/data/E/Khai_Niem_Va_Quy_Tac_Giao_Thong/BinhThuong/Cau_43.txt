@@ -1,0 +1,8 @@
+Khi xe đã kéo 1 xe hoặc xe đã kéo 1 rơ moóc, bạn có được phép kéo thêm xe (kể cả xe thô sơ) hoặc rơ moóc thứ hai hay không?
+4
+Chỉ được thực hiện trên đường quốc lộ có hai làn xe một chiều.
+Chỉ được thực hiện trên đường cao tốc.
+Không được thực hiện vào ban ngày.
+Không được phép.
+3
+

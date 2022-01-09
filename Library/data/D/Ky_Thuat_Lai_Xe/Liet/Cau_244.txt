@@ -1,0 +1,7 @@
+Khi điều khiển ô tô có hộp số tự động đi vào đường trơn trượt, lầy lội, người lái xe phải xử lý như thế nào để đảm bảo an toàn trong các trường hợp dưới đây?
+3
+Về số thấp, kết hợp phanh chân để giảm tốc độ.
+Giữ nguyên tay số D, kết hợp phanh tay để giảm tốc độ.
+Về số N (số 0), kết hợp phanh chân để giảm tốc độ.
+0
+

@@ -1,0 +1,8 @@
+Biển nào xe được phép quay đầu nhưng không được rẽ trái?
+3
+Biển 1.
+Biển 2.
+Cả 2 biển.
+0
+image/q328.png
+Biển 1: 123a “Cấm rẽ trái” nhưng không cấm quay đầu xe.<br/>Biển 2: R.301e đặt trước ngã ba ngã tư chỉ được rẽ trái ở phạm vi ngã ba, ngã tư phía sau mặt biển nên không thể quay đầu xe.

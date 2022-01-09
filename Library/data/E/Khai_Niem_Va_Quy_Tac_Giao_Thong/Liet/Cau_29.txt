@@ -1,0 +1,8 @@
+Hành vi vượt xe tại các vị trí có tầm nhìn hạn chế, đường vòng, đầu dốc có bị nghiêm cấm hay không?
+4
+Không bị nghiêm cấm.
+Không bị nghiêm cấm khi rất vội.
+Bị nghiêm cấm.
+Không bị nghiêm cấm khi khẩn cấp.
+2
+

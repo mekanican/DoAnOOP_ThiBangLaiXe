@@ -1,0 +1,8 @@
+Biển nào báo hiệu cấm xe mô tô ba bánh đi vào?
+3
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+0
+image/q308.png
+Biển 1: P.104 “Cấm mô tô” thì cấm cả mô tô 3 bánh.<br/>Biển 2: P.103a “Cấm ô tô” cấm ô tô và và cả phương tiện 3 bánh đi vào.

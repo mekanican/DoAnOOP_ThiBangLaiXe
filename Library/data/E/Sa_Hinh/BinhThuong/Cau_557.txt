@@ -1,0 +1,9 @@
+Bạn được dừng xe ở vị trí nào trong tình huống này?
+4
+Được phép dừng ở vị trí A.
+Được phép dừng ở vị trí B.
+Được phép dừng ở vị trí A và B.
+Không được dừng.
+3
+image/q558.png
+Biển số P.130 “Cấm dừng xe và đỗ xe” và biển phụ báo phạm vi trước và sau biển báo nên không được phép dừng xe tại cả 2 vị trí A và B.

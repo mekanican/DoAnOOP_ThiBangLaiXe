@@ -1,0 +1,9 @@
+Xe của bạn được đi theo hướng nào trong trường hợp này?
+4
+Đi thẳng hoặc rẽ trái.
+Đi thẳng hoặc rẽ phải.
+Rẽ trái.
+Đi thẳng, rẽ phải hoặc rẽ trái.
+0
+image/q570.png
+Làn đường mà xe của bạn đang đi chỉ được đi thẳng hoặc rẽ trái thôi. Nếu bạn chọn rẽ phải là bị đèn tín hiệu nó lừa rồi đó.

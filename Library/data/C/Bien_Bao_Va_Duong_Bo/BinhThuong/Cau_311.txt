@@ -1,0 +1,9 @@
+Biển nào cho phép ô tô con được vượt?
+4
+Biển 1 và 2.
+Biển 2.
+Biển 1 và 3.
+Biển 2 và 3.
+2
+image/q312.png
+Biển 1: DP.133 “Hết cấm vượt”; Biển 2: P.125 “Cấm vượt”; Biển 3: P.126 “Cấm ô tô tải vượt”. Chỉ có biển 2 cấm ô tô con vượt nên là đáp án đúng Biển 1 và biển 3.

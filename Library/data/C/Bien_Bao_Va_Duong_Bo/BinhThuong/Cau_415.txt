@@ -1,0 +1,8 @@
+Biển nào chỉ dẫn nơi bắt đầu đoạn đường dành cho người đi bộ?
+3
+Biển 1.
+Biển 2.
+Biển 3.
+1
+image/q416.png
+Biển 1: W.224 “Đường người đi bộ cắt ngang”; Biển 2: I.423c “Điểm bắt đầu đường đi bộ”; Biển 3: W.225 “Trẻ em”

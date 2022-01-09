@@ -1,0 +1,8 @@
+Biển nào cấm máy kéo?
+4
+Biển 1.
+Biển 2 và 3.
+Biển 1 và 3.
+Cả ba biển.
+1
+image/q307.png

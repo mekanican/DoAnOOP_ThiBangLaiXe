@@ -1,0 +1,8 @@
+Biển nào xe mô tô hai bánh được đi vào?
+3
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+1
+image/q353.png
+Biển chính là P.101 “Đường cấm”, có biển phụ thì áp dụng cấm theo biển phụ. Nên Biển 1 và Biển 3 không áp dụng với xe mô tô là câu trả lời đúng.

@@ -1,0 +1,7 @@
+Trong tình huống dưới đây, xe con màu vàng vượt xe con màu đỏ là đúng quy tắc giao thông hay không?
+2
+Đúng.
+Không đúng.
+0
+image/q599.png
+Xe màu đỏ đang trách về phía bên phải, xe màu vàng đã có tín hiệu xin vượt, vạch kẻ đường theo hướng xe chạy là nét đứt , không có xe ngược chiều. Nên xe vàng vượt đúng quy tắc giao thông.

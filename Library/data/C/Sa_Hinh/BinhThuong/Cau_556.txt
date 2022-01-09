@@ -1,0 +1,9 @@
+Người lái xe dừng tại vị trí nào là đúng quy tắc giao thông?
+4
+Vị trí A và B.
+Vị trí A và C.
+Vị trí B và C.
+Cả ba vị trí A, B, C.
+2
+image/q557.png
+Vị trí A vi phạm do dừng bên trái đường.<br/>Biển số P.131a “Cấm đỗ xe” không cấm dừng xe. Do đó vị trí dừng tại B và C là câu trả lời đúng.

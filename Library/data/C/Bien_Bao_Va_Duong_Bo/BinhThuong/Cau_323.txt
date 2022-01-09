@@ -1,0 +1,9 @@
+Biển nào cấm ô tô rẽ phải và quay đầu xe?
+4
+Biển 1.
+Biển 2.
+Biển 3.
+Biển 1 và 3.
+2
+image/q324.png
+Biển 1: P.124b “Cấm ô tô quay đầu xe”; Biển 2: P.124e “Cấm ôtô rẽ trái và quay xe”; Biển 3: P.124f “Cấm ôtô rẽ phải và quay xe”

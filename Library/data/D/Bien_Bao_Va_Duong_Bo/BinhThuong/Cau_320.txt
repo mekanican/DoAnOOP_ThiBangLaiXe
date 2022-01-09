@@ -1,0 +1,9 @@
+Biển nào cấm các phương tiện giao thông đường bộ rẽ phải?
+4
+Biển 1 và 2.
+Biển 1 và 3.
+Biển 2 và 3.
+Cả ba biển.
+0
+image/q321.png
+Biển 1: 123b “Cấm rẽ phải”; Biển 2: 124d “Cấm rẽ phải và quay xe”; Biển 3: 124f “Cấm ô tô rẽ phải và quay xe”.<br/>Nên biển 3 chỉ cấm xe ô tô, còn biển 1 và biển 2 cấm toàn bộ phương tiện rẽ phải.

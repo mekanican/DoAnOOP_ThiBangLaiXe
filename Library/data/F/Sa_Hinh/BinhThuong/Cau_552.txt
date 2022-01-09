@@ -1,0 +1,8 @@
+Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao thông?
+3
+Xe khách, mô tô.
+Xe tải, mô tô.
+Xe con, xe tải.
+2
+image/q553.png
+Xe con và xe tải đang ở trên làn đường có tín hiệu đèn đỏ nên phải dừng lại.

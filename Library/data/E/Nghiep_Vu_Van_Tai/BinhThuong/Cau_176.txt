@@ -1,0 +1,7 @@
+Người kinh doanh vận tải hàng hóa có các quyền gì ở dưới đây?
+3
+Yêu cầu người thuê vận tải cung cấp thông tin cần thiết về hàng hóa để ghi vào giấy vận chuyển và có quyền kiểm tra tính xác thực của các thông tin đó.
+Yêu cầu xếp hàng hóa vận chuyển trên xe vượt quá chiều cao quy định nhưng phải được chằng buộc chắc chắn.
+Yêu cầu xếp hàng hóa vượt tải trọng 10%.
+0
+

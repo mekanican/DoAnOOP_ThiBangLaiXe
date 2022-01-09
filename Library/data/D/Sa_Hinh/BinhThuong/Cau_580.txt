@@ -1,0 +1,8 @@
+Xe tải phía trước có tín hiệu xin chuyển làn đường, bạn xử lý như thế nào trong trường hợp này?
+3
+Bật tín hiệu xin chuyển làn đường sang trái để vượt xe tải.
+Phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.
+Bấm còi báo hiệu và vượt qua xe tải trên làn đường của mình.
+1
+image/q581.png
+Không được vượt khi phía trước có xe đang chuyển làn đường. Do đó, để đảm bảo an toàn bạn cần phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.

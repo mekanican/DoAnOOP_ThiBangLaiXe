@@ -1,0 +1,8 @@
+Các xe đi như thế nào là đúng quy tắc giao thông?
+3
+Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng.
+Cho phép các xe ở mọi hướng được rẽ phải.
+Tất cả các xe phải dừng lại trước ngã tư, trừ những xe đã ở trong ngã tư được phép tiếp tục đi.
+2
+image/q528.png
+Giơ tay thẳng đứng: Tất cả dừng, trừ xe đã ở trong ngã tư được phép đi;<br/>Giang ngang tay: Trái phải đi; Trước sau dừng;<br/>Tay phải giơ trước: Sau, phải dừng, trước rẽ phải, trái đi các hướng, người đi bộ qua đường đi sau người điều khiển.

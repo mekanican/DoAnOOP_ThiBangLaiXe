@@ -1,0 +1,8 @@
+Biển báo hiệu có dạng tam giác đều, viền đỏ, nền màu vàng, trên có hình vẽ màu đen là loại biển gì dưới đây?
+4
+Biển báo nguy hiểm.
+Biển báo cấm.
+Biển báo hiệu lệnh.
+Biển báo chỉ dẫn.
+0
+image/q73.png

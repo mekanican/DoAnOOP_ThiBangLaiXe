@@ -37,6 +37,6 @@ const string REQUIRED[] = {"Liet", "BinhThuong"};
 const string kScoreStringSeparator = ";;;";
 const int kScoreboardMaxSize = 1000;
 const string kScoreboardFolder = "UserData/scoreboard/";
-const int kScoreboardPageSize = 5;
+const int kScoreboardPageSize = 20;
 const int kScoreboardPageLimit = 50;
 #endif

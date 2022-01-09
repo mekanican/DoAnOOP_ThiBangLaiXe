@@ -1,0 +1,8 @@
+Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?
+4
+Thiếu dầu phanh, phanh tay đang hãm.
+Hệ thống túi khí an toàn gặp sự cố.
+Lái xe và người ngồi ghế trước chưa cài dây an toàn.
+Cửa đóng chưa chặt, có cửa chưa đóng.
+2
+image/q238.png

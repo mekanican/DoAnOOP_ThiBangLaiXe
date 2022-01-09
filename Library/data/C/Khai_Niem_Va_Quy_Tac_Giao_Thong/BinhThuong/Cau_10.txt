@@ -1,0 +1,8 @@
+“Người tham gia giao thông đường bộ” gồm những đối tượng nào?
+3
+Người điều khiển, người sử dụng phương tiện tham gia giao thông đường bộ.
+Người điều khiển, dẫn dắt súc vật; người đi bộ trên đường bộ.
+Cả ý 1 và ý 2.
+2
+
+Có đi trên đường là tham gia giao thông.

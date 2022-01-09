@@ -1,0 +1,8 @@
+Người lái xe không được quay đầu xe trong các trường hợp nào dưới đây?
+3
+Ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, đường cao tốc, đường hẹp, đường dốc, tại nơi đường bộ giao nhau cùng mức với đường sắt.
+Ở phía trước hoặc phía sau của phần đường dành cho người đi bộ qua đường, trên đường quốc lộ, tại nơi đường bộ giao nhau không cùng mức với đường sắt.
+Cả ý 1 và ý 2.
+0
+
+Nơi giao nhau cùng mức với đường sắt không được quay đầu xe.

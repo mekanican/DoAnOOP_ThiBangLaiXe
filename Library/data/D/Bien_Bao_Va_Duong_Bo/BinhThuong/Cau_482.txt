@@ -1,0 +1,8 @@
+Khi gặp vạch kẻ đường nào các xe được phép đè vạch?
+4
+Vạch 1.
+Vạch 2.
+Vạch 3.
+Vạch 1 và vạch 3.
+3
+image/q483.png

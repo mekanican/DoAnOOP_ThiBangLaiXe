@@ -1,0 +1,9 @@
+Trong hình dưới, những xe nào vi phạm quy tắc giao thông?
+4
+Xe con (E), mô tô (C).
+Xe tải (A), mô tô (D).
+Xe khách (B), mô tô (C).
+Xe khách (B), mô tô (D).
+0
+image/q543.png
+Xe mô tô C chạy vào làn dành riêng xe ô tô: Vi phạm; Xe con E chạy vào làn dành riêng xe máy: Vi phạm.

@@ -1,0 +1,7 @@
+Xe nào được quyền đi trước trong trường hợp này?
+2
+Mô tô.
+Xe con.
+0
+image/q525.png
+Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe mô tô rẽ trái từ đường ưu tiên vào đường ưu tiên (theo biển báo và biển phụ) nên được quyền đi trước.

@@ -1,0 +1,9 @@
+Biển nào chỉ đường dành cho người đi bộ, các loại xe không được đi vào khi gặp biển này?
+4
+Biển 1.
+Biển 1 và 3
+Biển 3.
+Cả ba biển.
+2
+image/q372.png
+Biển 1: W.224 “Đường người đi bộ cắt ngang”; Biển 2: P.112 “Cấm người đi bộ”; Biển 3: R.305 “Đường dành cho người đi bộ”.<br/>Biển 3 báo đường dành cho người đi bộ nên phương tiện khác không được đi vào.

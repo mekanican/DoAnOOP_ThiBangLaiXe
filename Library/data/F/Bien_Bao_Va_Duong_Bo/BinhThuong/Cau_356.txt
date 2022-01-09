@@ -1,0 +1,8 @@
+Biển nào báo hiệu khoảng cách thực tế từ nơi đặt biển đến nơi cần cự ly tối thiểu giữa hai xe?
+3
+Biển 1.
+Biển 2.
+Cả hai biển.
+1
+image/q357.png
+Biển phụ 1: S.501 “Phạm vi tác dụng của biển”;<br/>Biển phụ 2: S.502 “Khoảng cách đến đối tượng báo hiệu”.<br/>Nên Biển phụ 2 là đáp án đúng.
