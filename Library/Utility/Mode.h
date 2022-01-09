@@ -1,6 +1,7 @@
 #pragma once
 #include "../Question/Question.h"
 #include "../Scoreboard/Score.h"
+#include "../Question/QuestionPack.h"
 
 class Mode {
  private:
