@@ -220,7 +220,7 @@ RealScoreboard::RealScoreboard(Type license_type)
   try {
     if (!in_file.is_open() || in_file.eof() || in_file.bad())
       throw runtime_error(
-          "Unable to open scoreboard in file or the file is empty");
+          "");
 
     int count = 0;
     string line;
@@ -236,7 +236,7 @@ RealScoreboard::RealScoreboard(Type license_type)
     this->sort(false);
 
   } catch (const exception &e) {
-    cout << "Exception:\t" << e.what() << endl;
+    cout << e.what() << endl;
   }
 }
 
@@ -255,7 +255,7 @@ void RealScoreboard::save() {
 
   try {
     if (!out_file.is_open() || out_file.bad())
-      throw runtime_error("Unable to open scoreboard out file");
+      throw runtime_error("");
 
     for (int i = 0; i < scoreboard_.size() && i < kScoreboardMaxSize; i++)
       out_file << scoreboard_[i].toString() << "\n";
@@ -263,7 +263,7 @@ void RealScoreboard::save() {
     out_file.close();
 
   } catch (const exception &e) {
-    cout << "Exception:\t" << e.what() << endl;
+    cout << e.what() << endl;
   }
 }
 
